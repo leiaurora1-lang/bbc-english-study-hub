@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video English Study Hub · 任意视频英语精听精读工作台</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f172a'/%3E%3Cpolygon points='24,18 48,32 24,46' fill='%2338bdf8'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="badge-bbc">STUDY HUB</span>
+      <span>任意视频英语精听精读工作台</span>
+    </div>
+    <nav class="nav-tabs">
+      <button class="nav-btn active" onclick="scrollToSection('sec-timeline')">1. 章节对话精讲</button>
+      <button class="nav-btn" id="navVocabBtn" onclick="scrollToSection('sec-vocab')">2. 核心词库</button>
+      <button class="nav-btn" id="navSentencesBtn" onclick="scrollToSection('sec-sentences')">3. 长难句拆解</button>
+      <button class="nav-btn" onclick="scrollToSection('sec-practice')">4. 闪卡与互动自测</button>
+      <button class="nav-btn" onclick="scrollToSection('sec-notebook')" id="navNotebookBtn">5. 我的生词本 (0)</button>
+    </nav>
+    <div class="toolbar-right">
+      <select id="episodeSelect" class="btn-sm" title="切换学习剧集" style="max-width:220px;"></select>
+      <button class="btn-sm btn-primary" id="openImportBtn" onclick="openImportModal()" title="输入 YouTube 链接或上传本地视频，自动生成整站学习内容">+ 导入视频</button>
+      <button class="btn-sm" id="deleteEpisodeBtn" onclick="deleteCurrentEpisode()" title="删除当前自定义剧集" hidden style="color:var(--rose);">删除此集</button>
+      <select id="voiceSelect" class="btn-sm" onchange="onVoiceSelectChange()" title="选择朗读语音源" style="max-width:190px;">
+        <option value="auto-uk">高清英音 (UK Auto)</option>
+        <option value="auto-us">高清美音 (US Auto)</option>
+      </select>
+      <button class="btn-sm" onclick="stopSpeaking()" title="停止当前语音朗读">⏹ 停止朗读</button>
+      <button class="btn-sm" onclick="exportCurrentEpisodeJson()" title="导出当前剧集 JSON">导出 JSON</button>
+      <button class="btn-sm" onclick="toggleTheme()" id="themeBtn">切换浅色/深色</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero-grid">
+      <div class="card">
+        <div class="video-wrap">
+          <iframe id="ytPlayer" src="" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <video id="localPlayer" controls preload="metadata" hidden></video>
+        </div>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; font-size:13px; color:var(--text-muted); flex-wrap:wrap; gap:8px;">
+          <span>点击章节时间戳可联动播放器跳转；在英文原文上划词可加入生词本</span>
+          <div style="display:flex; gap:12px; align-items:center;">
+            <button type="button" class="btn-sm" onclick="openImportModal()">换一个视频生成整站 ↗</button>
+            <a href="#" id="ytSourceLink" rel="noopener" target="_blank">打开原视频 ↗</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card hero-meta">
+        <div class="meta-tags">
+          <span class="tag accent" id="epShowTag">Loading…</span>
+          <span class="tag green" id="epDurationTag"></span>
+          <span class="tag amber" id="epLevelTag"></span>
+          <span class="tag purple" id="epAccentTag"></span>
+        </div>
+        <h1 id="epTitle">Loading episode…</h1>
+        <p id="epSummary" style="font-size:14px; color:var(--text-muted); margin-bottom:12px;"></p>
+        <div class="speaker-grid" id="speakerGrid"></div>
+      </div>
+    </section>
+
+    <section id="sec-timeline">
+      <div class="section-header">
+        <h2>模块一：章节时间轴与原声双语精讲</h2>
+        <div class="control-group">
+          <button class="btn-sm active" id="mode-both" onclick="setLangMode('both')">中英对照</button>
+          <button class="btn-sm" id="mode-en" onclick="setLangMode('en')">仅看英文 (盲听精读)</button>
+          <button class="btn-sm" id="mode-zh" onclick="setLangMode('zh')">仅看中文 (复述自测)</button>
+        </div>
+      </div>
+      <div class="chapter-list" id="chapterContainer"></div>
+    </section>
+
+    <section id="sec-vocab">
+      <div class="section-header">
+        <h2 id="vocabSectionTitle">模块二：核心词汇与短语搭配库</h2>
+        <div class="control-group" id="vocabFilterGroup"></div>
+      </div>
+      <div class="vocab-grid" id="vocabContainer"></div>
+    </section>
+
+    <section id="sec-sentences">
+      <div class="section-header">
+        <h2 id="sentencesSectionTitle">模块三：核心原声金句与长难句语法拆解</h2>
+        <span style="font-size:13px; color:var(--text-muted);">点击「朗读原句」可调用浏览器语音合成练习跟读（Shadowing）</span>
+      </div>
+      <div id="sentenceContainer"></div>
+    </section>
+
+    <section id="sec-practice">
+      <div class="section-header">
+        <h2>模块四：配套互动练习与写作复述工作台</h2>
+        <button class="btn-sm" onclick="resetAllPractice()">重置练习记录</button>
+      </div>
+
+      <div class="practice-grid">
+        <div class="card">
+          <h3 style="margin-bottom:10px; font-size:17px;">4.1 核心表达记忆闪卡 (Flashcards)</h3>
+          <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">可切换「内置词库 / 我的生词本」作为闪卡数据源；进度按当前剧集隔离保存在本机。</p>
+          <div class="control-group" style="margin-bottom:10px;">
+            <button class="btn-sm active" id="fcSourceBuiltin" onclick="setFlashcardSource('builtin')">内置词库</button>
+            <button class="btn-sm" id="fcSourceNotebook" onclick="setFlashcardSource('notebook')">我的生词本</button>
+          </div>
+          <div class="flashcard-stage" id="flashcardStage" onclick="flipFlashcard()"></div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-top:12px; gap:8px; flex-wrap:wrap;">
+            <div>
+              <button class="btn-sm" onclick="prevFlashcard()">← 上一张</button>
+              <button class="btn-sm" onclick="nextFlashcard()">下一张 →</button>
+            </div>
+            <span id="flashcardCounter" style="font-size:13px; color:var(--text-muted);"></span>
+            <div>
+              <button class="btn-sm" style="color:var(--green);" onclick="markFlashcardMastered()">标记已掌握</button>
+              <button class="btn-sm" onclick="speakCurrentFlashcard()">发音朗读</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-bottom:10px; font-size:17px;">4.2 原声精听完形填空 (Listening Cloze)</h3>
+          <p style="font-size:13px; color:var(--text-muted); margin-bottom:12px;">根据原声语境与首字母提示填入搭配词，点击「核对答案」即时判分。</p>
+          <div id="clozeContainer" style="font-size:14px; display:flex; flex-direction:column; gap:12px;"></div>
+          <div style="margin-top:14px; display:flex; gap:10px; align-items:center;">
+            <button class="btn-sm active" onclick="checkClozeAnswers()">核对答案</button>
+            <button class="btn-sm" onclick="revealClozeAnswers()">显示标准答案</button>
+            <span id="clozeScore" style="font-size:13px; font-weight:600; color:var(--accent);"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="practice-grid" style="margin-top:20px;">
+        <div class="card">
+          <h3 style="margin-bottom:10px; font-size:17px;">4.3 深度观点与细节理解自测 (Comprehension Quiz)</h3>
+          <div id="quizContainer"></div>
+          <div style="margin-top:12px; display:flex; gap:10px; align-items:center;">
+            <button class="btn-sm active" onclick="submitQuiz()">提交判分并查看解析</button>
+            <span id="quizScoreText" style="font-size:13px; font-weight:600; color:var(--green);"></span>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3 style="margin-bottom:10px; font-size:17px;">4.4 观点复述与写作框架</h3>
+          <p id="writingTopicBox" style="font-size:13px; color:var(--text-muted);"></p>
+          <div id="writingSkeletonBox" style="background:var(--bg-elevated); padding:12px; border-radius:8px; margin-top:10px; font-size:13px;"></div>
+          <textarea class="essay-box" id="userEssayBox" placeholder="在此输入你的英文复述或段落仿写（按剧集隔离保存在本地）..." oninput="saveEssayDraft()"></textarea>
+          <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+            <button class="btn-sm" onclick="toggleModelEssay()">查看/隐藏 高分参考段落</button>
+            <span id="essayWordCount" style="font-size:12px; color:var(--text-muted);">0 words</span>
+          </div>
+          <div id="modelEssayBox" style="display:none; margin-top:12px; background:var(--bg-elevated); padding:12px; border-radius:8px; font-size:13px; border-left:3px solid var(--green);"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sec-notebook">
+      <div class="section-header">
+        <h2>模块五：我的生词本（划词收藏 · 按剧集隔离）</h2>
+        <div class="control-group">
+          <button class="btn-sm active" onclick="exportNotebookCsv()">导出我的生词本 CSV</button>
+          <button class="btn-sm" onclick="clearNotebook()">清空生词本</button>
+        </div>
+      </div>
+      <p style="font-size:13px; color:var(--text-muted); margin-bottom:14px;">
+        在任意<strong>英文原文</strong>上划选 1–8 个英文词，浮层「加入生词本」。数据键名为 <code>studyhub:{episodeId}:notebook</code>，切换剧集不会串数据。
+      </p>
+      <div id="notebookEmpty" class="card" style="display:none; text-align:center; color:var(--text-muted);">
+        生词本还是空的。去模块一的英文段落里划选生词试试吧。
+      </div>
+      <div class="notebook-grid" id="notebookContainer"></div>
+    </section>
+  </main>
+
+  <!-- 导入任意视频弹窗 -->
+  <div id="importModal" class="modal-backdrop" hidden>
+    <div class="modal-panel card" role="dialog" aria-modal="true" aria-labelledby="importModalTitle">
+      <div class="modal-header">
+        <div>
+          <h3 id="importModalTitle">导入任意视频 · 自动生成整站学习内容</h3>
+          <p style="font-size:12px; color:var(--text-muted); margin-top:2px;">支持 YouTube 链接或本地视频/音频文件，提取台词并生成章节精讲、词库、长难句与测验</p>
+        </div>
+        <button type="button" class="btn-sm" onclick="closeImportModal()">✕ 关闭</button>
+      </div>
+
+      <div id="backendHealthBanner" class="health-banner">正在检测后端服务状态…</div>
+
+      <div class="import-tabs">
+        <button type="button" class="btn-sm active" id="tabUrlBtn" onclick="switchImportTab('url')">YouTube 视频链接</button>
+        <button type="button" class="btn-sm" id="tabFileBtn" onclick="switchImportTab('file')">上传本地视频 / 音频</button>
+      </div>
+
+      <div id="importTabUrl" class="import-tab-body">
+        <label class="field-label">YouTube 链接 <span style="color:var(--rose);">*</span></label>
+        <input id="importUrlInput" class="field-input" type="url" placeholder="https://www.youtube.com/watch?v=... 或 https://youtu.be/..." />
+      </div>
+
+      <div id="importTabFile" class="import-tab-body" hidden>
+        <label class="field-label">选择或拖拽本地视频 / 音频文件 <span style="color:var(--rose);">*</span></label>
+        <div id="fileDropZone" class="drop-zone">
+          <input id="importFileInput" type="file" accept="video/*,audio/*,.mp4,.webm,.mov,.mkv,.mp3,.m4a,.wav" hidden />
+          <div id="fileDropText">点击选择文件，或将 <code>.mp4 / .mov / .webm / .mp3 / .m4a</code> 拖到此处</div>
+        </div>
+      </div>
+
+      <div class="form-row-2">
+        <div>
+          <label class="field-label">自定义标题（可选）</label>
+          <input id="importTitleInput" class="field-input" type="text" placeholder="留空则自动识别视频标题" />
+        </div>
+        <div>
+          <label class="field-label">目标英语难度</label>
+          <select id="importLevelSelect" class="field-input">
+            <option value="CEFR B2-C1">CEFR B2-C1（通用进阶）</option>
+            <option value="CEFR B1-B2">CEFR B1-B2（日常流畅）</option>
+            <option value="CEFR C1 / 雅思 7.5+ / 托福 105+">CEFR C1 / 雅思 7.5+ / 托福 105+</option>
+          </select>
+        </div>
+      </div>
+
+      <details id="apiConfigDetails" class="api-details">
+        <summary>API 与模型设置（若后端未配置 .env 密钥可在此填写，仅存本机浏览器）</summary>
+        <div class="api-grid">
+          <div>
+            <label class="field-label">OpenAI 兼容 API Key</label>
+            <input id="cfgApiKey" class="field-input" type="password" placeholder="sk-..." autocomplete="off" />
+          </div>
+          <div>
+            <label class="field-label">API Base URL</label>
+            <input id="cfgBaseUrl" class="field-input" type="text" placeholder="https://api.openai.com/v1" />
+          </div>
+          <div>
+            <label class="field-label">讲义生成模型 (LLM)</label>
+            <input id="cfgLlmModel" class="field-input" type="text" placeholder="gpt-4o-mini" />
+          </div>
+          <div>
+            <label class="field-label">语音转写模型 (ASR)</label>
+            <input id="cfgAsrModel" class="field-input" type="text" placeholder="whisper-1" />
+          </div>
+        </div>
+        <label style="display:flex; align-items:center; gap:8px; font-size:12px; color:var(--text-muted); margin-top:10px; cursor:pointer;">
+          <input id="importMockCheckbox" type="checkbox" />
+          <span>演示模式（不消耗 API Key，基于真实提取的字幕或示例文本快速预览整站联动效果）</span>
+        </label>
+      </details>
+
+      <div id="importProgressBox" class="progress-box" hidden>
+        <div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:6px;">
+          <strong id="importProgressText">准备中…</strong>
+          <span id="importProgressPct">0%</span>
+        </div>
+        <div class="progress-track">
+          <div id="importProgressFill" class="progress-fill" style="width:0%"></div>
+        </div>
+        <div id="importProgressLogs" class="progress-logs"></div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn-sm" onclick="closeImportModal()">取消</button>
+        <button type="button" class="btn-sm btn-primary" id="submitImportBtn" onclick="submitVideoImport()">开始解析并生成整站内容</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="selectionBubble" class="selection-bubble" hidden>
+    <button type="button" class="btn-sm active" id="bubbleAddBtn">加入生词本</button>
+    <button type="button" class="btn-sm" id="bubbleSpeakBtn">发音</button>
+    <button type="button" class="btn-sm" id="bubbleCloseBtn">关闭</button>
+  </div>
+  <div id="toastMsg" class="toast-msg" hidden></div>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

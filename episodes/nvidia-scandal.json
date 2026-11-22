@@ -1,0 +1,1286 @@
+{
+  "id": "nvidia-scandal",
+  "youtubeId": "RiMjEiqpuB0",
+  "title": "Why the Nvidia scandal is bigger than you think",
+  "titleZh": "BBC《The Global Story》：为何 Nvidia 丑闻比你想的更大",
+  "show": "BBC News · The Global Story",
+  "duration": "33:06",
+  "level": "CEFR C1 / 雅思 7.5+ / 托福 105+",
+  "accent": "英音 + 美音混合访谈",
+  "sourceUrl": "https://www.youtube.com/watch?v=RiMjEiqpuB0",
+  "speakers": [
+    {
+      "name": "Asma Khalid (Host · 美音)",
+      "blurb": "BBC 华盛顿主持，语速稳健，擅长新闻导语、时间线串联与尖锐追问。"
+    },
+    {
+      "name": "Faisal Islam (BBC 经济主编 · 英音)",
+      "blurb": "地道伦敦政经评论风格，高频使用习语（hold court, over the top）与复杂从句。"
+    },
+    {
+      "name": "Randy Schriver (USCC 主席 · 美音)",
+      "blurb": "前美国防部印太助理部长，典型华盛顿智库与国安政策论证表达。"
+    },
+    {
+      "name": "Mike Kuiken (USCC 副主席 · 美音)",
+      "blurb": "《芯片与科学法案》核心起草人，擅长使用生态底座与政治传播类比。"
+    }
+  ],
+  "summaryZh": "本集节目围绕 Nvidia CEO 个人风波引发的华盛顿政坛震荡展开，深入剖析了 GPU 如何从 3D 游戏显卡演变为全球 AI 算力基础设施、美国跨党派芯片出口管制逻辑（“拖慢 6-12 个月代差” vs. “零和博弈/双赢叙事”），是学习科技商业英语、地缘政治评论与地道英美新闻口语的高质量范本。",
+  "chapters": [
+    {
+      "num": 1,
+      "time": "00:00",
+      "sec": 0,
+      "title": "Why is Nvidia's CEO affair leading to political shockwaves?",
+      "titleZh": "为何 Nvidia CEO 的私人风波会引发地缘政治震荡？（含特朗普与黄仁勋通话原声）",
+      "speaker": "Asma Khalid, Jensen Huang, Donald Trump & Mike Kuiken",
+      "turns": [
+        {
+          "sp": "Asma Khalid (Host)",
+          "en": "Why is a billionaire's personal life leading to geopolitical shockwaves? The CEO of one of the world's most valuable companies, NVIDIA, has resigned after reports of two extramarital affairs, one with a woman who's suspected of being a Chinese spy. NVIDIA has been known for designing the chips and computer hardware that are powering the AI boom. And the face of that company has been Jensen Huang. It's no secret that Donald Trump has also been a fan of his.",
+          "zh": "为什么一位亿万富翁的私生活会引发地缘政治冲击波？全球市值最高公司之一英伟达（NVIDIA）的 CEO 在被曝出两段婚外情后辞职，其中一名女性被怀疑是中国间谍。英伟达以设计驱动 AI 热潮的芯片和计算机硬件而闻名，而这家公司的门面人物一直是黄仁勋。众所周知，唐纳德·特朗普也是他的拥趸。"
+        },
+        {
+          "sp": "Jensen Huang (Archive Clip)",
+          "en": "Hold on, sir, we're getting a microphone. Mr. President, you're now talking to the planet.",
+          "zh": "请稍等，先生，我们正在拿麦克风。总统先生，您现在正在向全世界讲话。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "The two men talked on the phone.",
+          "zh": "两人在电话中交谈。"
+        },
+        {
+          "sp": "Donald Trump (Archive Clip)",
+          "en": "The great thing about life is that Jensen can develop the most complex computer chip in the world that nobody can copy for 10 years, but he can't figure out how to put me on speaker.",
+          "zh": "生活最奇妙的地方在于，黄仁勋能研发出全世界最复杂、十年内没人能仿制出来的电脑芯片，但他却搞不明白怎么把我的电话切到免提（put me on speaker）。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "Trump called him a friend.",
+          "zh": "特朗普称他为朋友。"
+        },
+        {
+          "sp": "Donald Trump (Archive Clip)",
+          "en": "I view him as a very high-quality person. I've known him a long time.",
+          "zh": "我认为他是一个非常高素质的人。我认识他很长时间了。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "But now, Jensen Huang will no longer be the face of the company. And his romantic entanglements have become a national security concern. The woman who first made headlines at the center of this scandal—well, it's alleged she was a spy for the Chinese government, according to reporting in The New York Times. Though China denies the allegation, the story is still raising all sorts of questions. NVIDIA has opened an independent investigation, and members of Congress are demanding that Huang appear in front of them to answer their questions.",
+          "zh": "但现在，黄仁勋将不再是这家公司的门面，他的感情纠葛（romantic entanglements）已演变成国家安全隐患。处于这场丑闻中心、最先登上头条的那名女性——据《纽约时报》报道，她被指称是中国政府的间谍。尽管中方否认了这一指控，但此事仍引发了各种疑问。英伟达已启动独立调查，国会议员们正要求黄仁勋出席听证会回答质询。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "Frankly, this is all terrible timing for the U.S. tech industry and for President Trump, who's traveling to China next week and expected to meet with China's President Xi Jinping. From the BBC, I'm Asma Khalid in Washington, D.C. And today on The Global Story: how does the fallout from Jensen Huang's affair impact U.S. national security? And will it change how Washington deals with China? Coming up a little later in the show, we'll hear from Randy Schriver and Mike Kuiken. They're a Republican and Democrat who head up the government's bipartisan U.S.-China Economic and Security Review Commission. That commission's job is in part to give advice to Congress about how to deal with threats like this one.",
+          "zh": "坦率地说，这对美国科技行业和下周即将访华并预计会晤习近平主席的特朗普总统而言，时机都糟透了。这里是 BBC，我是驻华盛顿特区的阿斯玛·哈立德。今天的《全球故事》我们将探讨：黄仁勋婚外情风波的余波（fallout）如何冲击美国国家安全？它又是否会改变华盛顿对华打交道的方式？稍后节目中，我们将连线兰迪·施赖弗（Randy Schriver）和迈克·奎肯（Mike Kuiken），这两位共和党人与民主党人共同领导跨党派的“美中经济暨安全审查委员会”，该委员会的部分职责正是就如何应对此类威胁向国会提供建议。"
+        },
+        {
+          "sp": "Mike Kuiken (Teaser Clip)",
+          "en": "It's totally unsurprising to me that the Chinese State Security Service would be targeting Jensen and really probably all the people in NVIDIA's leadership.",
+          "zh": "中国国家安全部门将黄仁勋、甚至可能是英伟达所有高层列为目标，我对此完全不觉得意外。"
+        }
+      ],
+      "notes": [
+        "geopolitical shockwaves (地缘政治冲击波)",
+        "the face of the company (公司的门面/代言人)",
+        "put me on speaker (把我的电话切到免提)",
+        "romantic entanglements (感情纠葛/桃色牵连)",
+        "fallout (n. 政治余波/恶果)",
+        "head up (领导/主管某个机构)"
+      ]
+    },
+    {
+      "num": 2,
+      "time": "01:57",
+      "sec": 117,
+      "title": "Faisal Islam explains what Nvidia does",
+      "titleZh": "Faisal Islam 详解 Nvidia 业务：从“造 3D 恶龙”的游戏显卡到全球算力配给中心",
+      "speaker": "Asma Khalid & Faisal Islam",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "But first, I'm joined by the BBC's economics editor, Faisal Islam, who's based in London, been covering the story, and notably has interviewed Jensen Huang before. Welcome, Faisal. And before we dive into why we are talking about this company in this moment, can you just explain what NVIDIA does?",
+          "zh": "但首先，我们连线常驻伦敦的 BBC 经济主编费萨尔·伊斯兰（Faisal Islam），他一直在追踪这一事件，而且此前曾专访过黄仁勋。欢迎你，Faisal。在我们深入探讨为什么此时此刻谈论这家公司之前，你能先解释一下英伟达是做什么的吗？"
+        },
+        {
+          "sp": "Faisal Islam (BBC Economics Editor)",
+          "en": "Absolutely. I don't think it's kind of over the top to describe NVIDIA right now as the most important company in the world. The AI kind of boom that undoubtedly we've been living through over the past couple of years—that promises to transform companies, every part of our lives and the economy—is built on these frontier models, the large language models of which ChatGPT was the most famous pioneer in 2022. But we've also got Anthropic's Claude, we've also got Google's Gemini.",
+          "zh": "当然。我认为把眼下的英伟达形容为全世界最重要的公司，一点也不算夸张（over the top）。过去几年我们无疑正在经历的这场有望彻底改变企业、生活每个角落乃至整体经济的 AI 热潮，正是建立在这些前沿模型（frontier models）——即以 2022 年最著名的先驱 ChatGPT 为代表的大语言模型——之上的。此外我们还有 Anthropic 的 Claude，以及谷歌的 Gemini。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "And in turn, those models are built in a process called training of massive sets of data by the world's most powerful chips. And at this point, and for the past years, it has been this company, NVIDIA, sitting at the epicenter of that process, providing the world's most powerful chips.",
+          "zh": "而反过来，这些模型是通过全球最强大的芯片对海量数据集进行一种名为“训练（training）”的过程构建出来的。在当下以及过去几年里，正是英伟达这家公司处于这一过程的核心震中位置（sitting at the epicenter of），提供着全球最强大的芯片。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "And the backstory is fascinating because they didn't necessarily set out to do this. They set out to make GPUs, graphics processor units. And so Jensen Huang founded the company in 1993, and it's about 3D gaming. So it's about making 3D dragons, not transforming the whole world. And NVIDIA in particular, and Jensen Huang has a role—so in demand are his chips, his GPUs, for these purposes, that he has this astonishing role in essentially rationing them around the world. Everybody wants them. Nation-states want them. Companies want them. And that is the core of this.",
+          "zh": "这背后的发家史非常迷人，因为他们最初并不是奔着这个目标去的。他们最初是为了制造 GPU（图形处理器）。黄仁勋在 1993 年创立了这家公司，当时是为了 3D 游戏——也就是说，最初是为了在屏幕上造“3D 恶龙（making 3D dragons）”，而不是为了改变全世界。而英伟达尤其是黄仁勋本人扮演了一个特殊角色：他的 GPU 芯片在这些用途上是如此供不应求，以至于他实际上掌握了一个惊人的权力——在全球范围内对这些芯片进行定量配给（rationing）。所有人都想要它们，主权国家想要，各大企业也想要。这就是整件事的核心。"
+        }
+      ],
+      "notes": [
+        "over the top (夸张的/言过其实的)",
+        "frontier models (前沿大模型)",
+        "sit at the epicenter of (处于……的震中/最核心位置)",
+        "set out to do (最初怀着……目的出发/着手做)",
+        "making 3D dragons (制作3D游戏里的恶龙，幽默指代早期游戏显卡业务)",
+        "ration (v. 定量配给/按需分发)"
+      ]
+    },
+    {
+      "num": 3,
+      "time": "03:56",
+      "sec": 236,
+      "title": "Who is Jensen Huang?",
+      "titleZh": "黄仁勋是谁？4 万亿美元帝国的皮衣掌门人与“当代乔布斯”",
+      "speaker": "Asma Khalid & Faisal Islam",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "And so a tremendously powerful company and also a tremendously lucrative company valued at over $4 trillion. And at the center, as you say, is Jensen Huang. And, you know, he's a really interesting character. He's always sporting these leather jackets in the pictures I've seen of him. He is somebody who I would describe as being a close ally of President Trump in the world of technology. Can you tell us a little bit about Jensen Huang?",
+          "zh": "所以这是一家极其强大、也极其赚钱（lucrative）的公司，估值超过 4 万亿美元。而处于核心位置的，正如你所说，是黄仁勋。他是个非常有趣的人物，在我见过的照片里他总是穿着（sporting）标志性的皮夹克。我会把他形容为特朗普总统在科技界的亲密盟友。你能跟我们聊聊黄仁勋这个人吗？"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "I would say that he is like the modern-day Steve Jobs in terms of his centrality to global tech. Well, in many ways, I'd say he's more important than Steve Jobs. I have last year interviewed Jensen Huang and also sort of hung around whilst he held court for a couple of hours: 'Can you describe the opportunity for and in the UK for AI from your company? This is a giant week for the UK.' You sort of get to work out people's barriers and their methods to some degree when you spend that amount of time with them.",
+          "zh": "就他在全球科技界的核心地位而言，我认为他就像是当代的史蒂夫·乔布斯。甚至在很多方面，我觉得他比乔布斯更重要。去年我采访了黄仁勋，并在他被众人簇拥着高谈阔论（held court）的几个小时里一直在旁观察。我当时问他：“您能描述一下贵公司为英国带来的 AI 机遇吗？对英国来说这是意义重大的一周。” 当你花那么长时间近距离接触一个人时，你就能在一定程度上摸清他的防线（barriers）和行事方式。"
+        }
+      ],
+      "notes": [
+        "lucrative (adj. 利润丰厚的/极其赚钱的)",
+        "sport a leather jacket (穿着皮夹克，sport 作及物动词表示穿戴展示)",
+        "centrality (n. 核心地位/中心性)",
+        "hang around (在旁逗留观察)",
+        "hold court (像君王升堂一样被众人簇拥着高谈阔论/成为全场焦点)"
+      ]
+    },
+    {
+      "num": 4,
+      "time": "05:44",
+      "sec": 344,
+      "title": "Faisal's impressions of Jensen",
+      "titleZh": "Faisal 对黄仁勋的近距离印象：极度自信、“金发姑娘时刻”与“主权 AI”",
+      "speaker": "Jensen Huang & Faisal Islam",
+      "turns": [
+        {
+          "sp": "Jensen Huang (Interview Clip)",
+          "en": "It's a Goldilocks moment for the UK because of several reasons. One, this is the home of some of the finest research that's done.",
+          "zh": "由于几个原因，现在对英国来说是一个“金发姑娘时刻（Goldilocks moment，指各方面条件恰到好处的黄金机遇期）”。第一，这里拥有全球最顶尖的一些科研成果。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "And the context is important. It was around Donald Trump's state visit to meet King Charles, when President Trump brought a whole load of tech executives. There was a big US-UK tech deal signed. And NVIDIA was at the heart of the rollout of sovereign AI.",
+          "zh": "当时的背景很重要。那是在唐纳德·特朗普对英国进行国事访问（state visit）并会见查尔斯国王期间，特朗普总统带来了一大批科技公司高管，双方签署了一项重大的美英科技协议。而英伟达正处于“主权 AI（sovereign AI）”推广铺开（rollout）的核心位置。"
+        },
+        {
+          "sp": "Jensen Huang (Interview Clip)",
+          "en": "This is the week that I declare that the UK will be an AI superpower.",
+          "zh": "这一周，我宣布英国将成为一个 AI 超级大国。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "You mentioned the charisma. Supremely confident. The fact that he knows that he's probably the smartest person in the room, and the act of questioning him—as it was with Jobs, you know—he sort of looks at you as if he's saying, 'Does this guy really... is he really trying to question me about this?'",
+          "zh": "你提到了他的个人魅力（charisma）。他极度自信。他清楚自己大概是房间里最聪明的人，而当你向他发问时——就像当年面对乔布斯一样——他看着你的眼神仿佛在说：“这家伙真的……他真的打算在这个问题上质疑我吗？”"
+        },
+        {
+          "sp": "Jensen Huang (Interview Clip)",
+          "en": "So I think that the moment is right. It's just missing the infrastructure. You know, you can't build an industry without infrastructure. You can't create this industry without the AI factories.",
+          "zh": "所以我认为时机已经成熟，唯一缺少的就是基础设施。你知道，没有基础设施你就无法建立一个产业；没有“AI 工厂（AI factories）”，你就无法创造出这个产业。"
+        }
+      ],
+      "notes": [
+        "a Goldilocks moment (金发姑娘时刻：源自童话，经济学与政经新闻中指“不冷不热、各方面条件恰到好处的黄金窗口期”)",
+        "state visit (国事访问)",
+        "rollout (n. 新产品或政策的正式推出/全面铺开)",
+        "sovereign AI (主权人工智能)",
+        "the smartest person in the room (房间里最聪明的人)"
+      ]
+    },
+    {
+      "num": 5,
+      "time": "07:22",
+      "sec": 442,
+      "title": "Jensen's affair and what we know",
+      "titleZh": "桃色风波曝光全过程：如 007 电影般的剧情与黄仁勋致员工道歉信全文",
+      "speaker": "Asma Khalid, Faisal Islam & News Anchors",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "So, Faisal, we are having this conversation in the context of a week in which the news headlines have been dominated with details of an affair that Jensen Huang had and the claims that it was with a woman who was acting as a Chinese spy. Can you walk us through how that news came to light and what we know at this point?",
+          "zh": "Faisal，我们进行这场对话的背景是，本周的新闻头条完全被黄仁勋婚外情的细节、以及涉事女性据称充当中国间谍的指控所占据。你能带我们梳理一下（walk us through）这条新闻是如何曝光（came to light）的，以及目前我们所掌握的情况吗？"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "Yeah, so it starts with New York Times reporting. Over the past few months, various versions of this story have emerged. But the one that has crystallized this week has been a New York Times report on Sunday. The specific allegation was that there were concerns about an affair that Jensen Huang had.",
+          "zh": "好的，这始于《纽约时报》的报道。过去几个月里，关于这个故事的各种版本陆续浮出水面，但本周真正使事件具体化、明朗化（crystallized）的是周日《纽约时报》的一篇报道。具体指控称，外界对黄仁勋的一段婚外情存在安全担忧。"
+        },
+        {
+          "sp": "News Broadcast Clip 1",
+          "en": "It's like something out of a James Bond movie: one of the most powerful tech bosses in the world, pivotal in the global AI arms race, admitting he's had an affair with a suspected Chinese spy.",
+          "zh": "这简直就像 007 詹姆斯·邦德电影里的情节：全球最有权势的科技巨头之一、全球 AI 军备竞赛（AI arms race）中的关键人物，承认自己与一名疑似中国间谍发生了婚外情。"
+        },
+        {
+          "sp": "News Broadcast Clip 2",
+          "en": "The New York Times says the NVIDIA CEO, Jensen Huang, developed a close relationship with somebody at Megaspeed, an executive at the Singapore-based data center company. Jensen Huang admitted to having been unfaithful to his wife and apologized for hurting her and their children.",
+          "zh": "《纽约时报》称，英伟达 CEO 黄仁勋与总部位于新加坡的数据中心公司 Megaspeed 的一名高管发展了密切关系。黄仁勋承认自己对妻子不忠，并为伤害了妻子和孩子们而道歉。"
+        },
+        {
+          "sp": "Faisal Islam (Reading Jensen's Email)",
+          "en": "Let me just read out what Jensen Huang said in an email to NVIDIA staff: 'I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There's no excuse for what I did. I'm deeply sorry. Regarding the national security concerns raised in news reports, NVIDIA's board of directors has initiated an independent investigation. I support the investigation and will cooperate fully. I love our country and our company. I'm committed to protecting NVIDIA and supporting America's national security policy.'",
+          "zh": "让我读一下黄仁勋在发给英伟达全体员工的电子邮件中所说的话：“我欠我的家人和你们所有人一个道歉。我对妻子不忠。我的行为伤害了她和我们的孩子。我的所作所为没有任何借口，我深表歉意。关于新闻报道中提出的国家安全担忧，英伟达董事会已启动一项独立调查。我支持这项调查并将全力配合。我热爱我们的国家和我们的公司。我致力于保护英伟达并支持美国的国家安全政策。”"
+        }
+      ],
+      "notes": [
+        "walk us through (带我们一步步梳理/讲解)",
+        "come to light (曝光/真相大白)",
+        "crystallize (v. 使模糊的传闻变得清晰具体/明朗化)",
+        "out of a James Bond movie (像 007 电影里走出来的情节)",
+        "pivotal in the AI arms race (在 AI 军备竞赛中处于枢纽地位)"
+      ]
+    },
+    {
+      "num": 6,
+      "time": "09:55",
+      "sec": 595,
+      "title": "What national security concerns could there be?",
+      "titleZh": "董事会独立调查声明、新加坡 Megaspeed 高管背景与国安机器的担忧",
+      "speaker": "Faisal Islam & Asma Khalid",
+      "turns": [
+        {
+          "sp": "Faisal Islam",
+          "en": "The other fact here is that the NVIDIA board of directors are investigating. A statement from the NVIDIA board said that while the board has no reason to believe that either national security or NVIDIA secrets were compromised, the board's inquiry will examine all available information. The reporting alleges that the person concerned, someone called Alice Huang...",
+          "zh": "另一个事实是英伟达董事会正在进行调查。英伟达董事会的一份声明表示，尽管董事会没有理由认为国家安全或英伟达机密遭到了泄露（compromised），但董事会的调查将审视所有可用信息。报道指称，涉事人员（the person concerned）名叫 Alice Huang……"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "No relation to Jensen, we should be clear.",
+          "zh": "我们要澄清一下，她和黄仁勋（Jensen Huang）没有亲属关系。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "No, no, no, exactly—who was an executive at a Singaporean company called Megaspeed, that she was in some way connected to Chinese intelligence. So now, the company concerned has denied it, the Chinese government has denied it, but those are the allegations and we'll presume that those are the specific allegations that the board is currently engaged in an independent investigation. There are pictures, there's moving video of the two of them interacting together, and essentially the story becomes one of: were there concerns within the US national security apparatus about this relationship?",
+          "zh": "对，完全没有亲属关系——她是新加坡一家名为 Megaspeed 的公司的高管，报道指称她以某种方式与中国情报机构有关联。目前，涉事公司已经否认，中国政府也已否认，但这些就是目前的指控，我们推测这也是董事会当前开展独立调查所针对的具体指控。目前流出了两人互动的照片和动态视频（moving video），因此整件事的焦点本质上变成了：美国国家安全机构体系（national security apparatus）内部是否曾对这段关系感到担忧？"
+        }
+      ],
+      "notes": [
+        "be compromised (机密被泄露/安全受到危及)",
+        "the person/company concerned (涉事人员/相关公司，concerned 作后置定语)",
+        "moving video (动态视频画面)",
+        "national security apparatus (国家安全机构体系/国安机器)"
+      ]
+    },
+    {
+      "num": 7,
+      "time": "10:30",
+      "sec": 630,
+      "title": "The relationship between Huang and Trump",
+      "titleZh": "特朗普记者会回应、US Tech Stack 依赖策略与 H20/H200 芯片解禁内幕",
+      "speaker": "Asma Khalid, Reporter, Donald Trump, Faisal Islam & Jensen Huang",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "Those national security concerns, though, that you mentioned—I mean, that has certainly been the top concern I've been hearing here in Washington over the last several days. You've heard the President of the United States, Donald Trump, be asked repeatedly by journalists about his relationship with the CEO of NVIDIA.",
+          "zh": "不过你提到的那些国家安全担忧，确实是过去几天我在华盛顿听到的头号焦点。你也听到美国总统唐纳德·特朗普被记者反复追问他与英伟达 CEO 的关系。"
+        },
+        {
+          "sp": "White House Reporter (Press Clip)",
+          "en": "Sir, when were you first informed that there was an issue with Jensen Huang and the affair? And what was presented to you at the time? What was the concern?",
+          "zh": "先生，您最早是什么时候被告知黄仁勋存在这一婚外情问题的？当时向您呈报了什么内容？核心担忧是什么？"
+        },
+        {
+          "sp": "Donald Trump (Press Clip)",
+          "en": "I would say that when I heard about it, first of all, I was amazed because I view him as a very high-quality person. I've known him a long time. What he knew and when he knew—he's an amazing guy. I just hope there's no problem. If there is a problem, we'll let you know about it, but I hope there's no problem.",
+          "zh": "我想说，当我听说这件事时，首先我非常惊讶，因为我认为他是一个非常高素质的人，我认识他很久了。至于他知道什么、什么时候知道的——他是个了不起的家伙。我只希望没有问题。如果真有问题，我们会通报大家，但我希望没有问题。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "You know, he has stood by very publicly the CEO of NVIDIA, saying that he's an honorable man. There's been reporting in The New York Times that the President of the United States and other top officials had been warned about the relationship that Jensen Huang had with Alice. Nonetheless, the president over the last couple of days suggested he was not warned; he has said he doesn't recall receiving any sort of briefing of that sort, that he'd have to check. I want to ask you about that because we've mentioned this a couple of times: Jensen Huang and Donald Trump, they definitely had a relationship between the two of them. They talk.",
+          "zh": "他非常公开地力挺（stood by）这位英伟达 CEO，称他是个正派体面的人（honorable man）。《纽约时报》报道称，美国总统和其他高级官员此前就曾收到过关于黄仁勋与 Alice 这段关系的警告。尽管如此，总统过去几天暗示他并未收到警告，称自己不记得收过任何此类简报（briefing），需要去核实一下。我想问你这件事，因为我们提过好几次了：黄仁勋和特朗普之间无疑有着密切的私交，他们经常直接通话。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "Oh, absolutely. They definitely talk. I think the critical part of this story—I've told you how important the chips were, how sought-after they were—is that in 2024, there are restrictions on the export from NVIDIA of their highest-performing chips. This is a conscious policy to try and, if you like, slow down China's AI development by not giving them access to the best chips. There is an argument proffered by the industry...",
+          "zh": "哦，绝对的，他们肯定直接通话。我认为这个故事最关键的部分在于——我刚才讲了这些芯片有多重要、多么炙手可热（sought-after）——2024 年美国对英伟达最高性能芯片的出口实施了限制。这是一项有意识的政策，试图通过不让中国获得最好的芯片来拖慢其 AI 发展。但产业界提出（proffered）了另一种论点……"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "And this was under the former Biden administration, I recall.",
+          "zh": "我记得这项限制是在前任拜登政府时期出台的。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "Yes, yes, yes. The industry argument is: you want to actually get them using what they call the US tech stack. That's better for the US. You don't want to incentivize them to go out there and create all these technologies themselves, because they may be two years behind, but they're going to get there eventually.",
+          "zh": "对，没错。产业界的论点是：你实际上应该让他们使用所谓的“美国技术栈（US tech stack）”，这对美国更有利。你不想倒逼激励（incentivize）他们自己去把所有这些技术重新造一遍，因为他们眼下或许落后两年，但终究会追赶上来的。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "Jensen Huang very publicly was arguing that some of these restrictions should be lifted. And some restrictions were lifted in July of 2025 (on the H20 chip). And then in December 2025, the more powerful chip, the H200, which is a derivation of the chip that helps create your ChatGPTs and all that sort of stuff—that ban is lifted in December. This is when I had my conversation with him, right in the middle of this, September 2025. The question I put to him was directly: 'But Jensen, you're one of the few people that can walk into the White House and speak to President Trump and then within days go and speak to Xi Jinping.' And someone asked me, 'Well, who are the other four?' And I thought, well, it was Tim Cook from Apple and maybe a couple of other world leaders. And that's your lot who have that type of access.",
+          "zh": "黄仁勋曾非常公开地呼吁解除其中一些限制。2025 年 7 月，部分限制（针对 H20 芯片）确实被解除了。接着在 2025 年 12 月，性能更强大的 H200 芯片——也就是用来训练 ChatGPT 这类模型的芯片衍生版——禁令也在 12 月被解除了。我是在这期间的 2025 年 9 月专访他的。当时我直接向他抛出了这个问题：“但是 Jensen，你是极少数能够走进白宫与特朗普总统交谈，几天后又能去和习近平主席交谈的人之一。” 后来有人问我：“那另外四个人是谁？” 我想了想，大概只有苹果的蒂姆·库克（Tim Cook）加上两三位世界大国领袖了。拥有这种级别政界通行证（access）的人就这么屈指可数（that's your lot）。"
+        },
+        {
+          "sp": "Jensen Huang (Interview Clip)",
+          "en": "President Trump is very clear he wants America to win. And President Xi wants China to win. And it's possible for both of them to. And the reason for that is because it's not a zero-sum game.",
+          "zh": "特朗普总统非常明确，他希望美国赢；习主席也希望中国赢。而双方都赢是完全可能的，原因就在于这不是一场零和博弈（zero-sum game）。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "The basic story is quite clear. He is arguing, number one, that the whole concept, the whole conceit of China and the US being a kind of fundamental lose-lose situation, a zero-sum game, as he said, isn't right. Both can win. Both should win. That's not an argument shared by the US national security apparatus, maybe not in Beijing either, but that was his argument.",
+          "zh": "基本脉络非常清晰。他的核心论点是：认为美中之间必然是某种根本性的双输局面或零和博弈的整个概念、整个预设想法（conceit）是不对的。双方都可以赢，也应该双赢。这一论点并不为美国国家安全机构所认同，或许北京方面也不这么认为，但那就是他的主张。"
+        }
+      ],
+      "notes": [
+        "stand by sb. (公开支持/力挺某人)",
+        "proffer an argument (提出一个论点)",
+        "US tech stack (美国技术栈/软硬件生态体系)",
+        "that's your lot (英式口语：就这么多了/屈指可数)",
+        "conceit (n. 构想/预设观念)"
+      ]
+    },
+    {
+      "num": 8,
+      "time": "13:33",
+      "sec": 813,
+      "title": "Is he a CEO that is too big to fail?",
+      "titleZh": "他是“大到不能倒”的 CEO 吗？黄仁勋辞职后的股价分化与华府鹰派占上风",
+      "speaker": "Asma Khalid & Faisal Islam",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "Can you help us understand why this affair that the CEO of NVIDIA had is so geopolitically and economically significant? I mean, I've sort of heard questions being raised about: is Jensen Huang a CEO who is too big to fail?",
+          "zh": "你能帮我们理解一下，为什么英伟达 CEO 的这段婚外情在地缘政治和经济上具有如此重大的影响吗？我已经听到有人提出疑问：黄仁勋是一位“大到不能倒（too big to fail）”的 CEO 吗？"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "Jensen Huang is NVIDIA since its founding, and his singular focus has been essential to its success. And there is just too much demand for this company's chips for it to sort of fall over in any meaningful way. However, without Jensen Huang at the helm, people will inevitably question the future direction of the company—and you saw that in the market reaction when NVIDIA's share price fell (down over 4%) while rival chipmakers like AMD and Broadcom saw their shares jump.",
+          "zh": "自英伟达创立以来，黄仁勋本人就是英伟达的化身，他高度专一的战略定力（singular focus）对公司成功至关重要。不过市场对这家公司芯片的需求实在太庞大了，公司不会因此出现任何实质性的垮塌（fall over）。但没了黄仁勋掌舵，外界不可避免地会质疑公司未来的走向——从市场反应中就能看出来：英伟达股价应声下跌（跌幅超 4%），而超微（AMD）和博通（Broadcom）等竞争对手的股价却逆势大涨。"
+        },
+        {
+          "sp": "Faisal Islam",
+          "en": "Where this does really matter, Asma, I think, is the argument and his power in pursuing an argument that you could come up with a win-win solution, that it wasn't a zero-sum game. He was an extremely powerful proponent of that argument, and he won that argument with President Trump. And he told me that he thought he'd won that argument. The force of that voice now, you've got to think, isn't going to be as strong. And a more hawkish sentiment about the spread of technology from the West, from the US to China, surely prevails as a result of what we have seen. And that will have significant downstream consequences. But some would argue it was inevitable.",
+          "zh": "阿斯玛，我认为这件事真正关键的地方，在于他推动“美中可以达成双赢方案、而非零和博弈”这一论点的影响力。他曾是该主张极其强有力的倡导者（proponent），而且他在特朗普总统那里赢下了这场辩论——他当时亲口告诉我，他认为自己已经说服了特朗普。而现在，你不得不承认，这股声音的力量将大不如前。经此一事，对于西方和美国技术向中国扩散的鹰派强硬情绪（hawkish sentiment）必将占上风。而这将会带来显著的下游连锁后果（downstream consequences）——尽管有人会说这本就是不可避免的。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "Well, thank you, Faisal. And we'll get more into those possible ramifications here in Washington in just a moment. Thank you.",
+          "zh": "非常感谢你，Faisal。稍后我们将进一步探讨此事在华盛顿可能引发的衍生后果（ramifications）。谢谢。"
+        }
+      ],
+      "notes": [
+        "too big to fail (大到不能倒)",
+        "singular focus (高度专一的战略专注)",
+        "fall over (口语：企业倒闭/垮塌)",
+        "proponent (n. 倡导者/辩护者)",
+        "hawkish sentiment (鹰派情绪/强硬立场)",
+        "downstream consequences / ramifications (下游连锁反应/复杂政治后果)"
+      ]
+    },
+    {
+      "num": 9,
+      "time": "18:33",
+      "sec": 1113,
+      "title": "Intro to Randy and Mike (USCC)",
+      "titleZh": "《芯片与科学法案》背景与国会跨党派顾问机构 USCC 职能详解",
+      "speaker": "Asma Khalid, Randy Schriver & Mike Kuiken",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "There are a lot of questions that we still don't have answers to about any potential national security risks from this NVIDIA story. And the questions are not just about what might have happened in the past with the CEO of NVIDIA, but also what may happen in the future as the U.S. navigates AI trade and tech policy with China. Now, for years, the U.S. government has tried to prevent China from getting its hands on the most cutting-edge technology. It's restricted sales of chips to China. And in 2022, Congress tried to encourage the manufacturing of more semiconductors on U.S. soil by passing what's known as the CHIPS and Science Act.",
+          "zh": "关于英伟达事件潜在的国家安全风险，我们仍有很多问题没有答案。这些问题不仅关乎英伟达 CEO 过去可能发生了什么，更关乎未来美国如何处理对华 AI 贸易与科技政策。多年来，美国政府一直试图阻止中国染指（getting its hands on）最尖端的技术，限制对华芯片销售。2022 年，国会通过了著名的《芯片与科学法案》（CHIPS and Science Act，注：受访嘉宾 Mike Kuiken 即为该法案核心起草人之一），试图鼓励在美国本土（on U.S. soil）制造更多半导体。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "These new allegations surrounding NVIDIA's CEO are adding another dimension to the debate, and the question of whether the U.S. should allow tech companies with roots in America to sell their valuable hardware to China. Two people who think about this all a lot are Randy Schriver and Mike Kuiken. They're the chair and vice chair of a government commission that advises Congress on these sorts of questions. And so we invited them into our BBC studios here in Washington, D.C. Well, Randy and Mike, thank you for joining us on The Global Story. Before we dive into questions, you both are part of the U.S.-China Economic and Security Review Commission. We should explain to listeners this was created by Congress some 25 years ago. What does the commission do?",
+          "zh": "围绕英伟达 CEO 的最新指控为这场辩论增添了新的维度：美国是否应该允许植根于美国的科技公司向中国出售其宝贵的硬件？有两个人常年深入思考这些问题——兰迪·施赖弗（Randy Schriver）和迈克·奎肯（Mike Kuiken），他们分别是向国会提供此类政策建议的政府委员会的正副主席。我们邀请他们来到了位于华盛顿特区的 BBC 演播室。欢迎二位。在进入具体问题前，二位所在的“美中经济暨安全审查委员会（USCC）”是国会在大约 25 年前设立的，能否先向听众介绍一下委员会的职责？"
+        },
+        {
+          "sp": "Randy Schriver (Chair, USCC)",
+          "en": "Congress, sometimes when they look at an issue that needs deeper study, when they need more sophisticated analysis, and they need people to do the deep dives and give recommendations, one of the things they do from time to time is create commissions. So our goal is to make recommendations to Congress so that they then can pick those up and either put them in legislation, maybe hold further hearings themselves, do some sort of legislative action based on our research, our findings, and our recommendations.",
+          "zh": "当国会面对某个需要更深入研究、更精密分析的议题，需要专人进行深度调研（do the deep dives）并提出建议时，他们不时采取的做法之一就是设立专门委员会。因此，我们的目标是向国会提出建议，以便国会议员采纳并将其写入立法、或自行举行进一步听证会，基于我们的研究、调查发现和建议采取立法行动（如参议院版 2027 财年国防授权法已纳入三项相关芯片法案条款）。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "So Republicans, Democrats—the goal is to collectively give information to lawmakers to make smart choices as it relates to foreign policy with China.",
+          "zh": "所以无论是共和党人还是民主党人，目标都是共同为立法者提供信息，以便在对华外交政策上做出明智选择。"
+        },
+        {
+          "sp": "Mike Kuiken (Vice Chair, USCC)",
+          "en": "That's exactly right. I mean, one of the things the commission works hard at is: how do we think about things 12 months, 18 months out? And how do we make sure that we have basically built sort of some policy framework and some basis of product and knowledge that they can fall in on quickly to make sure there's data to support some of the work that they're doing?",
+          "zh": "完全正确。委员会非常努力在做的一件事就是：我们如何提前展望未来 12 个月、18 个月之后（12 months, 18 months out）的局势？我们如何确保提前构建好一套政策框架和研究成果基础，让国会议员在需要时能够迅速依托（fall in on quickly），确保有扎实的数据支撑他们的工作？"
+        }
+      ],
+      "notes": [
+        "get one's hands on (染指/搞到某物)",
+        "on U.S. soil (在美国本土)",
+        "do the deep dives (进行深度挖掘调研)",
+        "12 months, 18 months out (未来 12 到 18 个月之后)",
+        "fall in on quickly (军事/政策术语：迅速接手并依托现成框架开展工作)"
+      ]
+    },
+    {
+      "num": 10,
+      "time": "20:21",
+      "sec": 1221,
+      "title": "When they saw this news what did they think?",
+      "titleZh": "两位委员看到新闻的第一反应：“国安部的本职工作就是偷机密”与 AI 基础设施层",
+      "speaker": "Asma Khalid, Randy Schriver & Mike Kuiken",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "Well, this story of NVIDIA that we heard about from our business colleague is turning into a story about U.S. national security concerns as it relates to China. I want to begin by just asking you both: when you saw this news, what was your reaction? Randy, if I can start with you.",
+          "zh": "刚才我们商业同事梳理的这起英伟达事件，正在演变成一起关乎美中关系的美国国家安全事件。我想先问问二位：当你们看到这条新闻时，第一反应是什么？Randy，先从你开始吧。"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "Well, NVIDIA is such a key industry for us, such a key player because of the AI competition, the AI race. I mean, it's really their chips that are helping power that for our companies that are running the most advanced models. We know that China is very interested in this technology. So just these pieces being there raise concerns. Obviously, it's going to be investigated.",
+          "zh": "英伟达对我们来说是极其关键的产业和核心参与者，因为当前正处于 AI 竞争和 AI 竞赛之中。正是他们的芯片在为我们那些运行最先进大模型的企业提供算力动力。我们知道中国对这项技术非常感兴趣，所以仅仅是这几个要素凑在一起就足以引起担忧。显然此事必须接受调查。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "You don't sound that shocked, Randy, to me.",
+          "zh": "Randy，在我听来你似乎一点也不感到震惊。"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "Well, the Chinese have been trying to steal our technology for decades.",
+          "zh": "嗯，中国试图窃取我们的技术已经持续几十年了。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "Maybe the elements of this might feel a bit like a Hollywood movie, but you're sounding like the ingredients have been there for some time.",
+          "zh": "也许这件事的某些桥段听起来有点像好莱坞电影，但听你的意思，酿成此事的各种要素（ingredients）其实早就存在了。"
+        },
+        {
+          "sp": "Mike Kuiken",
+          "en": "I think that's a good way of putting it, yeah. I mean, a couple of things. First of all, last time I checked, the job of the Ministry for State Security is to steal secrets. And they do that through really any means they can. Second reaction is: when you think about sort of all of the things around us—the microphones we're talking into, the cameras that we're looking into—all of these things take chips. Your iPhone takes a chip. All of the conversations you have with Claude or ChatGPT have chips in them. And really those conversations that you have are the ones that NVIDIA enables.",
+          "zh": "我觉得你这个说法很贴切。我有两点反应：首先，据我所知（last time I checked），国家安全部（MSS）的本职工作就是窃取机密，而且他们会动用一切可用手段去达成目的。第二点反应是：当你环顾我们周围的一切——我们正对着说话的麦克风、正对着看的摄像机——所有这些设备都需要芯片，你的 iPhone 需要芯片，你和 Claude 或 ChatGPT 进行的每一次对话背后都有芯片。而真正让这些对话成为可能的，正是英伟达。"
+        },
+        {
+          "sp": "Mike Kuiken",
+          "en": "And so as you think about these frontier lab companies, as you think about GPUs and sort of all the things that NVIDIA builds, they're really the sort of infrastructure layer of that entire ecosystem. And so it's totally unsurprising to me that the Chinese State Security Service would be targeting Jensen and really probably all the people in NVIDIA's leadership and the people at the frontier labs.",
+          "zh": "所以当你审视这些前沿 AI 实验室公司、审视 GPU 以及英伟达构建的一切时，它们实际上是整个生态系统的底层基础设施层（infrastructure layer）。因此，中国国安部门把黄仁勋、甚至可能把英伟达所有高管以及各大前沿实验室的核心人员列为目标，我完全不觉得意外。"
+        }
+      ],
+      "notes": [
+        "the ingredients have been there (促成某事的各种要素早已存在)",
+        "last time I checked (口语反讽/强调常识：据我所知/如果我没记错的话)",
+        "frontier lab companies (前沿 AI 实验室企业，如 OpenAI、Anthropic)",
+        "infrastructure layer (基础设施层/底层算力底座)"
+      ]
+    },
+    {
+      "num": 11,
+      "time": "21:57",
+      "sec": 1317,
+      "title": "What is the commission's view on selling AI chips to China?",
+      "titleZh": "委员会对华芯片出口立场：两党一致从严，为何“拖慢 6 到 12 个月”就极具意义？",
+      "speaker": "Asma Khalid & Randy Schriver",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "I would say that if we think of one person who symbolizes the perspective of selling more chips to China, I would think of Jensen Huang. So I want to ask you this: what has the commission's perspective been on selling chips to China?",
+          "zh": "如果说有谁象征着“主张向中国出售更多芯片”这一立场，我首先想到的就是黄仁勋。所以我想问你们：委员会对于向中国出售芯片一直持什么立场？"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "When we've taken particular actions—like made recommendations to Congress or put out papers or held hearings—I would say it's been a consensus view, both Republicans and Democrats, that we should be very restrictive on the export of the highest-end chips.",
+          "zh": "每当我们采取具体行动——比如向国会提交建议、发表研究报告或举行听证会时——无论是共和党还是民主党委员，我们的共识观点（consensus view）都是：我们应当对最高端芯片的出口采取非常严格的限制。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "Why is it such a concern?",
+          "zh": "为什么大家对此如此担忧？"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "If we can't thwart China's advancement because they have a lot of money, they have talent, you have to control the things that you can control. And in many instances, this is not really preventing China's evolution and development of these capabilities. It's just thwarting it for a period of time. Obviously, they're looking at working around. Part of that is developing their own indigenous capabilities. But in this world, particularly this sector, six months to a year of keeping them behind us is meaningful.",
+          "zh": "既然因为中国资金充裕、人才济济，我们无法彻底阻止中国的进步，那你就必须控制你能控制的部分。在很多情况下，出口管制并不是要彻底阻止中国演进和发展这些能力，而只是将其延缓（thwarting）一段时间。显然他们也在想办法绕开限制（working around），其中一部分就是研发他们自己的本土自主能力（indigenous capabilities）。但在这个世界、尤其是 AI 这个行业里，让他们落后我们 6 个月到 1 年也是极具战略意义的。"
+        }
+      ],
+      "notes": [
+        "symbolize the perspective (代表/象征某种立场观点)",
+        "consensus view (共识观点)",
+        "thwart (v. 阻挠/挫败/延缓进程)",
+        "work around (设法绕开限制/寻找变通方案)",
+        "indigenous capabilities (本土自主研发能力)"
+      ]
+    },
+    {
+      "num": 12,
+      "time": "24:07",
+      "sec": 1447,
+      "title": "Are there legitimate security concerns?",
+      "titleZh": "国安隐患是否成立？军事战场 AI 赋能与对中方快速否认声明的反应（“我翻了个白眼”）",
+      "speaker": "Asma Khalid, Randy Schriver & Mike Kuiken",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "If I can go back to the reason we're having this conversation in this moment, and that is the story that broke in the past several days about Jensen Huang, the CEO of NVIDIA. It is not just a story about a billionaire having an extramarital affair. We have seen requests now from Congress for him to appear before lawmakers to explain the security protocols of his company. Randy, you were the Assistant Secretary of Defense for Indo-Pacific Security Affairs. And so I want to begin by asking you this question: are there legitimate national security concerns in this NVIDIA story?",
+          "zh": "让我们回到此时此刻进行这场对话的直接起因——过去几天爆出的英伟达 CEO 黄仁勋事件。这不仅仅是一个亿万富翁发生婚外情的故事，我们已经看到国会要求他出席听证会，向立法者解释其公司的安全协议（security protocols）。Randy，你曾任美国国防部印太安全事务助理部长，我想先问你：在这起英伟达事件中，是否存在合理的（legitimate）国家安全担忧？"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "Potentially there are. We'll have to find out. We'll have to see where the investigation goes. We do know that China wants this capability. They would pursue it through multiple means, including spying and through theft. And, yeah, I mean, look, these chips are very powerful because of what they can enable, including things in the military domain: unmanned systems, battlefield management, command and decision-making. The better the AI, the better the chips, the better you're going to get on the battlefield. So there are very direct national security concerns if, in fact, this relationship was a pathway for China to accelerate their acquisition of this kind of advanced chip.",
+          "zh": "潜在来看是有的，这要看调查最终指向何处。我们确知中国渴望获得这种能力，而且他们会通过包括间谍活动和窃取在内的多种手段去追求它。要知道，这些芯片之所以极其强大，在于它们所能赋能的应用，包括在军事领域（military domain）的应用——如无人作战系统、战场管理与指挥决策。AI 越强、芯片越好，你在战场上的表现就越强。因此，如果这段私人关系果真成为了中国加速获取此类先进芯片的通道（pathway），那就存在非常直接的国家安全隐患。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "We should note that China has denied any allegations here of spying in this NVIDIA case. They said the allegations about Chinese spies are 'entirely groundless, speculative, and intended to smear and malign China.'",
+          "zh": "我们需要指出，中方已经否认了英伟达事件中有关间谍活动的任何指控。中国外交部表示，有关中国间谍的指控“完全毫无根据、纯属臆测，意在抹黑和中伤中国（groundless, speculative, and intended to smear and malign China）”。"
+        },
+        {
+          "sp": "Mike Kuiken",
+          "en": "I actually thought it was amazing they put out a statement.",
+          "zh": "老实说，他们竟然专门为此发表了一份官方声明，我觉得太不可思议了。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "Really?",
+          "zh": "真的吗？"
+        },
+        {
+          "sp": "Mike Kuiken",
+          "en": "Oh, absolutely. I mean, they don't do that for everything.",
+          "zh": "哦，绝对的。要知道他们可不会对所有传闻都发正式声明。"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "I have been working on China or China-related issues for decades, and sometimes they come out with a strong denial. It's rarely associated with the truth on things like this. I mean, if you think about the origins of the Communist Party, it's all about information, information control. I mean, this is very reflexive for them to put out statements. I agree, you know, the speed with which they did it and the strength of the statement might have stood out.",
+          "zh": "我研究中国及涉华事务几十年了，有时候他们会发表措辞強烈的否认声明，但在这种事情上，否认与否往往与真相无关。如果你了解其信息管控的传统，就会知道发表否认声明对他们而言是一种条件反射式的（reflexive）操作。不过我也同意 Mike 的看法，这次他们反应的速度之快、声明措辞之强烈，确实显得有些反常突出（stood out）。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "That's really striking to hear—that that raised sort of more alarm bells for you all about who it is.",
+          "zh": "听到这个判断真的很引人深思——也就是说，这反而给你们敲响了更多警钟（raised more alarm bells）。"
+        },
+        {
+          "sp": "Mike Kuiken",
+          "en": "It didn't raise alarm bells, it just made me... it confirmed my assumption. Yeah, exactly. I mean, I rolled my eyes and, you know, couldn't believe it came out that fast.",
+          "zh": "倒不是敲响警钟，而是直接印证了我的预判。没错，我当时直接翻了个白眼（rolled my eyes），简直不敢相信声明发得这么快。"
+        }
+      ],
+      "notes": [
+        "security protocols (安全规程/保密协议)",
+        "military domain (军事领域)",
+        "pathway (n. 路径/获取通道)",
+        "groundless, speculative, smear and malign (毫无根据、纯属臆测、抹黑与中伤——典型外交辞令四连词)",
+        "reflexive (adj. 条件反射式的/本能反应的)",
+        "raise alarm bells (敲响警钟)",
+        "roll one's eyes (翻白眼，表示不以为然或看穿)"
+      ]
+    },
+    {
+      "num": 13,
+      "time": "25:11",
+      "sec": 1511,
+      "title": "How widespread is Chinese espionage & Trump's upcoming China trip",
+      "titleZh": "技术获取手段有多广泛（MIT 电池案例与学术研讨会接触）？对下周深圳川习会有何影响？",
+      "speaker": "Asma Khalid, Mike Kuiken & Randy Schriver",
+      "turns": [
+        {
+          "sp": "Mike Kuiken & Randy Schriver (On Tech Acquisition & Espionage)",
+          "en": "When we look at how widespread these efforts are, it's not limited to traditional intelligence operations. Take the battery industry as an example: much of the early foundational innovation in advanced batteries came out of laboratories at MIT in the United States, yet Chinese battery companies very quickly acquired that know-how and scaled up to dominate the sector. And as Randy noted, they also systematically target people—inviting top scientists and engineers to academic conferences and seminars, and gradually turning those contacts into collaborative relationships.",
+          "zh": "当我们审视这类技术获取行动有多广泛时，会发现它并不局限于传统情报活动。Mike 举了电池产业的例子：早期先进电池的许多基础性创新最初诞生于美国麻省理工学院（MIT）的实验室，但中国电池企业很快获取了相关技术诀窍并迅速赶超主导了产业。Randy 补充指出，他们还会系统性地锁定核心人才——例如邀请顶尖科学家和工程师参加学术会议与研讨会（conferences and seminars），再逐步将这些接触转化为合作关系。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "And I also want to note that next week, President Trump is scheduled to travel to China. What challenges does this all pose for the president, going to China as this story is happening in the background?",
+          "zh": "我还想指出，下周特朗普总统按计划将访问中国。在这起事件作为背景持续发酵的当下，前往中国访问会给总统带来哪些挑战？"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "He's got his hands full, irrespective of this issue. This is sort of piling on. But we have a robust agenda with China. The president is particularly interested in making the trade relationship something that's more durable and sustainable. So they had this trade truce, created this Board of Trade and Board of Investment. And the president seems to be in a mode where he doesn't want distractions to that agenda—even if those distractions from time to time pop up as pretty significant consequential issues: things that are going on in the Middle East and Chinese material support for Iran, their material support for Russia in the aggression in Ukraine, all the things related to Taiwan.",
+          "zh": "即便撇开这件事不谈（irrespective of this issue），总统也已经忙得不可开交了（got his hands full），这件事只是雪上加霜（piling on）。但我们与中国的议程非常庞大。总统特别希望让美中贸易关系变得更加持久稳定（durable and sustainable），所以双方此前达成了贸易休战（trade truce），并设立了贸易委员会和投资委员会。总统目前似乎处于一种不想让任何干扰因素打乱经贸议程的模式——即便这些时不时冒出来的干扰因素本身是极其重大的问题：比如中东局势、对俄乌冲突的物资支持以及台湾相关议题。"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "So I think the president still wants a fairly constrained and focused conversation on trade and economic issues. So to the extent that this issue—I was going to say to the extent it bleeds into that—I don't think he wants a discussion about 'are you spying or not spying.' I don't think this is going to affect much in Shenzhen. Maybe it should more than it will, but I doubt it'll affect much.",
+          "zh": "因此我认为总统仍然希望把会谈相当严格地限定并聚焦在贸易和经济议题上。所以至于这件事会蔓延渗透（bleeds into）到什么程度——我觉得他根本不想在会谈中讨论“你们到底有没有搞间谍活动”。我认为这件事不会对深圳会谈产生太大影响。也许它本该产生更大的影响，但我怀疑实际影响很有限。"
+        }
+      ],
+      "notes": [
+        "irrespective of (撇开……不谈/不论)",
+        "have one's hands full (忙得不可开交/应接不暇)",
+        "pile on (雪上加霜/叠加负担)",
+        "trade truce (贸易休战)",
+        "consequential issues (后果重大的议题)",
+        "bleed into (渗透/蔓延影响到另一领域)"
+      ]
+    },
+    {
+      "num": 14,
+      "time": "29:48",
+      "sec": 1788,
+      "title": "Is Nvidia's story going to lead to tangible consequences?",
+      "titleZh": "事件是否会带来实质性政策后果？“不要浪费一场危机”与更严厉的出口管制",
+      "speaker": "Asma Khalid, Randy Schriver & Mike Kuiken",
+      "turns": [
+        {
+          "sp": "Asma Khalid",
+          "en": "A final question for both of you. And Randy, if I can begin with you. You know, I used to cover politics here in D.C. and I would say that very few things in Washington these days feel bipartisan. But look at you all here, Republican, Democrat, side by side. I'm curious if you all think that this NVIDIA story is one that will lead to tangible consequences or changes in how we as the U.S. government think about selling chips. I mean, will the consequences be, for example, to crack down more on selling chips to China? Will there be tangible consequences regardless of what happens?",
+          "zh": "向二位提出最后一个问题，Randy 先请。我以前在华盛顿跑政治新闻，坦白说如今华盛顿很少有什么事情能让人感觉是“两党团结一致（bipartisan）”的。但看看你们二位，共和党人与民主党人并肩坐在一起。我很好奇，你们认为英伟达这件事是否会带来实质性的后果（tangible consequences），或者改变美国政府对于出售芯片的考量？比如，是否会进一步严厉打击（crack down more on）向中国出售芯片？无论调查结果如何，都会产生实质后果吗？"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "Well, as we stated before, we're already sort of on that side of the argument that we'd like to see a more restrictive approach to the release and sale of these advanced chips. So I hope it does sort of create that conversation and that space to have a large enough consensus around that to be able to move that—whether that's different legislation or pressure on the executive branch to enforce the export controls that are on the books. Like a lot of things with this president, there's a personal relationship involved, and he's already spoken very favorably and in defense of Jensen Huang. So that could be a complicating factor. But I think from my read, this is the kind of event that should move the needle a little bit and hopefully create a consensus around stricter export controls.",
+          "zh": "正如我们之前所说，我们本来就站在主张对先进芯片的放行与销售采取更严格限制的那一边。因此我希望此事能创造讨论空间，凝聚起足够广泛的共识来推动这一进程——无论是通过新的立法，还是向行政部门施压以严格执行已载入法律条文的（on the books）出口管制。当然，就像这位总统处理的许多事务一样，这里面牵涉到私人交情，而且他已经公开发表了非常维护黄仁勋的言论，这可能成为一个复杂化因素（complicating factor）。但依我解读（from my read），这类事件应当会起到一定的推动作用（move the needle），有望围绕更严格的出口管制达成共识。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "You all have been calling for this. And in the past, have you received some hesitation from lawmakers?",
+          "zh": "你们一直都在呼吁这样做。过去你们是否遇到过立法者的犹豫或阻力？"
+        },
+        {
+          "sp": "Randy Schriver",
+          "en": "I don't think hesitation. I think it's a matter of, you know, it's hard to get legislation passed, and it's hard to get the administration, even when you do, sometimes to implement. So these things are hard. I appreciate the commentary about bipartisanship and how we can have a civil conversation about this. I would just say we get a lot of help from China. Republican, Democrat—I think we're often offended by the same things and often concerned by the same things.",
+          "zh": "我不觉得是犹豫。问题在于，推动任何法案在国会通过本就很难，而且即便法案通过了，有时候要让行政当局真正落实执行（implement）也很难。我很感谢你提到跨党派合作以及我们能够理性文明地讨论这些问题。我只想说，在这方面中国“帮了我们不少忙”——无论是共和党还是民主党，我们往往会被同样的事情所触怒，也往往对同样的威胁感到担忧。"
+        },
+        {
+          "sp": "Mike Kuiken",
+          "en": "Anytime you have a story like this that's sort of outside of the noise level—and you've covered politics for a long time, you sort of know when something's just operating in that noise space, and all of a sudden you're like, 'Whoa, that one's like slightly different.'",
+          "zh": "每当出现这样一个超出日常政治噪音水平（outside of the noise level）的事件时——你在政坛跑新闻这么多年，肯定很清楚哪些事情只是在日常噪音区间里打转，而突然间冒出一件事让你感叹：“哇，这件事非同寻常。”"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "I mean, I haven't seen something like this in a long time.",
+          "zh": "确实，我很久没见过这样的事了。"
+        },
+        {
+          "sp": "Mike Kuiken",
+          "en": "Yeah, this is exactly what I'm saying. This is outside of the noise level. So when something is outside of the noise level—I mean, Rahm Emanuel always said, you know, 'Use a crisis to your advantage,' right? So this is very good because it allows sort of the American people to understand that the Chinese are in fact targeting us.",
+          "zh": "对，我说的就是这个意思，它完全超出了日常噪音水平。而当一件超出日常噪音的事情发生时——拉姆·伊曼纽尔（Rahm Emanuel，奥巴马时期白宫幕僚长）常说：“善用每一场危机（Use a crisis to your advantage / Never let a serious crisis go to waste）”，对吧？所以从这个角度看，这件事有其积极意义，因为它能让美国民众清醒地认识到，对方确实正在把我们列为目标。"
+        },
+        {
+          "sp": "Asma Khalid",
+          "en": "Well, on that note, I just want to say thank you both for coming by in person to have this conversation. That was Randy Schriver and Mike Kuiken, chair and vice chair of the bipartisan U.S.-China Economic and Security Review Commission. And earlier, I was speaking with my colleague Faisal Islam, the BBC's economics editor. I think it's fair to say, after hearing the story of NVIDIA, that AI is truly the story of our time.",
+          "zh": "好的，说到这里，非常感谢二位亲自来到演播室参与这场对话。以上是跨党派美中经济暨安全审查委员会正副主席兰迪·施赖弗和迈克·奎肯，更早前我连线了我的同事、BBC 经济主编费萨尔·伊斯兰。听完英伟达的故事，我想可以公允地说：人工智能（AI）真正是我们这个时代的核心故事。"
+        }
+      ],
+      "notes": [
+        "tangible consequences (实质性的/可感知的后果)",
+        "crack down on (严厉打击/收紧管控)",
+        "on the books (已载入法典的/现行有效的法律条文)",
+        "from my read (依我解读/按我的判断)",
+        "move the needle (产生可察觉的改变/推动局势发展)",
+        "outside of the noise level (超出日常背景噪音，指真正破圈的重磅事件)",
+        "use a crisis to your advantage (利用危机转化为推动政策的契机)"
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "sit at the epicenter of",
+      "phonetic": "/ˈepɪsentər/",
+      "cat": "ai",
+      "pos": "phr.",
+      "zh": "处于……的震中 / 最核心位置",
+      "ex": "NVIDIA has been sitting at the epicenter of that training process, providing the world's most powerful chips. (02:45)"
+    },
+    {
+      "word": "frontier models",
+      "phonetic": "/frʌnˈtɪr ˈmɑːdlz/",
+      "cat": "ai",
+      "pos": "n.",
+      "zh": "前沿大模型（最尖端的基础 AI 模型）",
+      "ex": "The AI boom is built on these frontier models, the large language models of which ChatGPT was the pioneer. (02:18)"
+    },
+    {
+      "word": "making 3D dragons",
+      "phonetic": "/ˈdreɪɡənz/",
+      "cat": "ai",
+      "pos": "phr.",
+      "zh": "制作 3D 游戏里的恶龙（幽默指代英伟达早期 3D 游戏显卡业务）",
+      "ex": "Jensen Huang founded the company in 1993 for 3D gaming—so it's about making 3D dragons, not transforming the whole world. (03:05)"
+    },
+    {
+      "word": "ration",
+      "phonetic": "/ˈræʃn/",
+      "cat": "ai",
+      "pos": "v.",
+      "zh": "定量配给；按需控制分发",
+      "ex": "So in demand are his GPUs that he has this astonishing role in essentially rationing them around the world. (03:20)"
+    },
+    {
+      "word": "lucrative",
+      "phonetic": "/ˈluːkrətɪv/",
+      "cat": "ai",
+      "pos": "adj.",
+      "zh": "利润丰厚的；极其赚钱的",
+      "ex": "A tremendously powerful company and also a tremendously lucrative company valued at over $4 trillion. (03:58)"
+    },
+    {
+      "word": "rollout",
+      "phonetic": "/ˈroʊlaʊt/",
+      "cat": "ai",
+      "pos": "n.",
+      "zh": "（新产品、技术或战略的）正式推出、全面铺开",
+      "ex": "NVIDIA was at the heart of the rollout of sovereign AI during the US-UK tech deal. (06:30)"
+    },
+    {
+      "word": "sovereign AI",
+      "phonetic": "/ˈsɑːvrɪn/",
+      "cat": "ai",
+      "pos": "n.",
+      "zh": "主权人工智能（一国自主掌控算力与数据的 AI 体系）",
+      "ex": "NVIDIA was at the heart of the rollout of sovereign AI: 'The UK will be an AI superpower.' (06:35)"
+    },
+    {
+      "word": "AI factories",
+      "phonetic": "/ˈfæktəriz/",
+      "cat": "ai",
+      "pos": "n.",
+      "zh": "AI 工厂（黄仁勋提出的将海量数据转化为智能的算力中心概念）",
+      "ex": "You can't build an industry without infrastructure. You can't create this industry without the AI factories. (07:02)"
+    },
+    {
+      "word": "sought-after",
+      "phonetic": "/ˈsɔːt æftər/",
+      "cat": "ai",
+      "pos": "adj.",
+      "zh": "炙手可热的；极受追捧的",
+      "ex": "I've told you how important the chips were and how sought-after they were globally. (11:35)"
+    },
+    {
+      "word": "US tech stack",
+      "phonetic": "/tek stæk/",
+      "cat": "ai",
+      "pos": "n.",
+      "zh": "美国技术栈（软硬件全套技术生态体系）",
+      "ex": "You want to actually get them using what they call the US tech stack rather than creating technologies themselves. (12:05)"
+    },
+    {
+      "word": "infrastructure layer",
+      "phonetic": "/ˈɪnfrəstrʌktʃər ˈleɪər/",
+      "cat": "ai",
+      "pos": "n.",
+      "zh": "基础设施层 / 底层底座",
+      "ex": "GPUs and all the things that NVIDIA builds are really the infrastructure layer of that entire ecosystem. (21:15)"
+    },
+    {
+      "word": "indigenous capabilities",
+      "phonetic": "/ɪnˈdɪdʒənəs/",
+      "cat": "ai",
+      "pos": "n.",
+      "zh": "本土自主研发能力",
+      "ex": "Obviously they're looking at working around restrictions; part of that is developing their own indigenous capabilities. (22:22)"
+    },
+    {
+      "word": "geopolitical shockwaves",
+      "phonetic": "/ˌdʒiːoʊpəˈlɪtɪkl/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "地缘政治冲击波 / 政坛震荡",
+      "ex": "Why is a billionaire's personal life leading to geopolitical shockwaves? (00:52)"
+    },
+    {
+      "word": "fallout",
+      "phonetic": "/ˈfɔːlaʊt/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "（政治丑闻或重大事件的）余波、恶果、连锁冲击",
+      "ex": "How does the fallout from Jensen Huang's affair impact U.S. national security? (02:45)"
+    },
+    {
+      "word": "AI arms race",
+      "phonetic": "/ɑːrmz reɪs/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "AI 军备竞赛",
+      "ex": "One of the most powerful tech bosses in the world, pivotal in the global AI arms race. (08:02)"
+    },
+    {
+      "word": "national security apparatus",
+      "phonetic": "/ˌæpəˈrætəs/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "国家安全机构体系 / 国安机器",
+      "ex": "Were there concerns within the US national security apparatus about this relationship? (09:58)"
+    },
+    {
+      "word": "zero-sum game",
+      "phonetic": "/ˈzɪroʊ sʌm/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "零和博弈（一方所得必为另一方所失）",
+      "ex": "It's possible for both America and China to win, because it's not a zero-sum game. (13:18)"
+    },
+    {
+      "word": "hawkish sentiment",
+      "phonetic": "/ˈhɔːkɪʃ ˈsentɪmənt/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "鹰派情绪；强硬派立场",
+      "ex": "A more hawkish sentiment about the spread of technology from the US to China surely prevails. (14:52)"
+    },
+    {
+      "word": "on U.S. soil",
+      "phonetic": "/sɔɪl/",
+      "cat": "geo",
+      "pos": "phr.",
+      "zh": "在美国本土 / 在美国领土上",
+      "ex": "Congress tried to encourage the manufacturing of more semiconductors on U.S. soil by passing the CHIPS Act. (17:45)"
+    },
+    {
+      "word": "bipartisan consensus",
+      "phonetic": "/ˌbaɪˈpɑːrtɪzn/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "两党共识（共和党与民主党一致同意）",
+      "ex": "It's been a consensus view, both Republicans and Democrats, that we should be restrictive on highest-end chips. (21:48)"
+    },
+    {
+      "word": "thwart",
+      "phonetic": "/θwɔːrt/",
+      "cat": "geo",
+      "pos": "v.",
+      "zh": "阻挠；挫败；延缓进程",
+      "ex": "If we can't permanently prevent China's advancement, export controls are about thwarting it for a period of time. (22:10)"
+    },
+    {
+      "word": "military domain",
+      "phonetic": "/dʊˈmeɪn/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "军事领域 / 作战域",
+      "ex": "These chips are very powerful because of what they can enable, including things in the military domain. (23:25)"
+    },
+    {
+      "word": "trade truce",
+      "phonetic": "/treɪd truːs/",
+      "cat": "geo",
+      "pos": "n.",
+      "zh": "贸易休战 / 经贸停火安排",
+      "ex": "The president wants a durable trade relationship, so they had this trade truce. (25:15)"
+    },
+    {
+      "word": "on the books",
+      "phonetic": "/ɒn ðə bʊks/",
+      "cat": "geo",
+      "pos": "phr.",
+      "zh": "已载入法典的；现行有效的（法律/管制条例）",
+      "ex": "Pressure on the executive branch to enforce the export controls that are on the books. (26:58)"
+    },
+    {
+      "word": "put me on speaker",
+      "phonetic": "/ˈspiːkər/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "把我的电话切到免提（扩音器）",
+      "ex": "Jensen can develop the most complex chip in the world, but he can't figure out how to put me on speaker. (01:35)"
+    },
+    {
+      "word": "over the top",
+      "phonetic": "/ˌoʊvər ðə ˈtɑːp/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "夸张的；过头的；言过其实的",
+      "ex": "I don't think it's kind of over the top to describe NVIDIA right now as the most important company in the world. (03:38)"
+    },
+    {
+      "word": "sport a leather jacket",
+      "phonetic": "/spɔːrt/",
+      "cat": "idiom",
+      "pos": "v.",
+      "zh": "穿着/佩戴（醒目的服饰，sport 作动词）",
+      "ex": "He's a really interesting character—he's always sporting these leather jackets. (04:08)"
+    },
+    {
+      "word": "hold court",
+      "phonetic": "/hoʊld kɔːrt/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "被众人簇拥着高谈阔论；成为全场焦点",
+      "ex": "I interviewed Jensen Huang last year and hung around whilst he held court for a couple of hours. (05:50)"
+    },
+    {
+      "word": "a Goldilocks moment",
+      "phonetic": "/ˈɡoʊldilɑːks/",
+      "cat": "idiom",
+      "pos": "n.",
+      "zh": "“金发姑娘时刻”（各方面条件恰到好处的黄金窗口期）",
+      "ex": "It's a Goldilocks moment for the UK because this is the home of some of the finest research. (06:12)"
+    },
+    {
+      "word": "that's your lot",
+      "phonetic": "/ðæts jʊr lɑːt/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "（英式口语）就这么多了；全部家当也就这些了",
+      "ex": "Tim Cook and maybe a couple of world leaders—and that's your lot who have that type of access. (13:02)"
+    },
+    {
+      "word": "too big to fail",
+      "phonetic": "/tuː bɪɡ tuː feɪl/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "大到不能倒（地位极其关键而不能任其垮掉）",
+      "ex": "I've heard questions being raised about: is Jensen Huang a CEO who is too big to fail? (13:55)"
+    },
+    {
+      "word": "last time I checked",
+      "phonetic": "/tʃekt/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "据我所知；如果我没记错的话（常带冷峻反讽语气强调常识）",
+      "ex": "First of all, last time I checked, the job of the Ministry for State Security is to steal secrets. (20:40)"
+    },
+    {
+      "word": "roll one's eyes",
+      "phonetic": "/roʊl aɪz/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "翻白眼（表示不以为然、觉得荒谬或早已看穿）",
+      "ex": "It confirmed my assumption—I rolled my eyes and couldn't believe the denial came out that fast. (24:38)"
+    },
+    {
+      "word": "have one's hands full",
+      "phonetic": "/hændz fʊl/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "忙得不可开交；应接不暇",
+      "ex": "He's got his hands full, irrespective of this issue. This is sort of piling on. (24:55)"
+    },
+    {
+      "word": "bleed into",
+      "phonetic": "/bliːd ˈɪntuː/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "渗透到；蔓延影响到（另一个领域或议程）",
+      "ex": "To the extent that this espionage issue bleeds into the trade talks, I doubt it'll affect much. (25:45)"
+    },
+    {
+      "word": "move the needle",
+      "phonetic": "/muːv ðə ˈniːdl/",
+      "cat": "idiom",
+      "pos": "phr.",
+      "zh": "产生明显可察觉的改变；推动局势发展",
+      "ex": "From my read, this is the kind of event that should move the needle a little bit on export controls. (27:15)"
+    },
+    {
+      "word": "romantic entanglements",
+      "phonetic": "/ɪnˈtæŋɡlmənts/",
+      "cat": "press",
+      "pos": "n.",
+      "zh": "感情纠葛；桃色牵连（比 affair 更正式的新闻书面语）",
+      "ex": "His romantic entanglements have become a national security concern. (01:48)"
+    },
+    {
+      "word": "come to light",
+      "phonetic": "/kʌm tuː laɪt/",
+      "cat": "press",
+      "pos": "phr.",
+      "zh": "曝光；披露；真相浮出水面",
+      "ex": "Can you walk us through how that news came to light and what we know at this point? (07:28)"
+    },
+    {
+      "word": "crystallize",
+      "phonetic": "/ˈkrɪstəlaɪz/",
+      "cat": "press",
+      "pos": "v.",
+      "zh": "（模糊传闻或想法）明朗化、具体化、定型",
+      "ex": "Various versions of this story have emerged, but the one that has crystallized this week is a NYT report. (07:40)"
+    },
+    {
+      "word": "compromise",
+      "phonetic": "/ˈkɑːmprəmaɪz/",
+      "cat": "press",
+      "pos": "v.",
+      "zh": "危及；使（机密/国家安全）遭到泄露或损害",
+      "ex": "The board has no reason to believe that either national security or NVIDIA secrets were compromised. (09:05)"
+    },
+    {
+      "word": "stand by",
+      "phonetic": "/stænd baɪ/",
+      "cat": "press",
+      "pos": "phr.",
+      "zh": "公开支持；力挺（处于困境中的某人）",
+      "ex": "Trump has stood by very publicly the CEO of NVIDIA, saying that he's an honorable man. (10:48)"
+    },
+    {
+      "word": "proffer",
+      "phonetic": "/ˈprɑːfər/",
+      "cat": "press",
+      "pos": "v.",
+      "zh": "提出；提供（论点、建议或解释，正式用词）",
+      "ex": "There is an argument proffered by the industry that you want China using the US tech stack. (11:52)"
+    },
+    {
+      "word": "proponent",
+      "phonetic": "/prəˈpoʊnənt/",
+      "cat": "press",
+      "pos": "n.",
+      "zh": "倡导者；支持者；辩护者",
+      "ex": "He was an extremely powerful proponent of that win-win argument with President Trump. (14:35)"
+    },
+    {
+      "word": "downstream consequences",
+      "phonetic": "/ˌdaʊnˈstriːm/",
+      "cat": "press",
+      "pos": "n.",
+      "zh": "下游连锁反应；后续深远后果",
+      "ex": "A more hawkish sentiment prevails, and that will have significant downstream consequences. (15:02)"
+    },
+    {
+      "word": "ramifications",
+      "phonetic": "/ˌræmɪfɪˈkeɪʃnz/",
+      "cat": "press",
+      "pos": "n.",
+      "zh": "（复杂且往往棘手的）衍生影响、政治后果",
+      "ex": "We'll get more into those possible ramifications here in Washington in just a moment. (15:12)"
+    },
+    {
+      "word": "groundless and speculative",
+      "phonetic": "/ˈɡraʊndləs/",
+      "cat": "press",
+      "pos": "adj.",
+      "zh": "毫无根据且纯属臆测的（高频外交抗议辞令）",
+      "ex": "They said the allegations are entirely groundless, speculative, and intended to smear and malign China. (23:50)"
+    },
+    {
+      "word": "outside of the noise level",
+      "phonetic": "/nɔɪz ˈlevl/",
+      "cat": "press",
+      "pos": "phr.",
+      "zh": "超出日常背景噪音（指真正震动舆论、破圈的重磅事件）",
+      "ex": "Anytime you have a story like this that's outside of the noise level, people pay real attention. (28:02)"
+    },
+    {
+      "word": "use a crisis to your advantage",
+      "phonetic": "/ədˈvæntɪdʒ/",
+      "cat": "press",
+      "pos": "phr.",
+      "zh": "化危机为转机；利用危机推动政策议程",
+      "ex": "Rahm Emanuel always said, 'Use a crisis to your advantage,' right? (28:18)"
+    }
+  ],
+  "sentences": [
+    {
+      "id": 1,
+      "time": "03:15",
+      "sec": 195,
+      "speaker": "Faisal Islam (英音)",
+      "pattern": "So + 表语(介词短语) + be + 主语 + that... 结果状语从句倒装",
+      "en": "So in demand are his chips, his GPUs, for these purposes, that he has this astonishing role in essentially rationing them around the world.",
+      "zh": "他的芯片（GPU）在这些用途上是如此供不应求，以至于他实际上扮演了一个惊人的角色——在全球范围内对这些芯片进行配给分发。",
+      "chunks": [
+        "倒装表语: So in demand (如此供不应求，正常语序为 His chips are so in demand)",
+        "系动词+主语: are his chips, his GPUs (主系倒装，突出稀缺程度)",
+        "结果从句: that he has this astonishing role in essentially rationing them... (以至于他掌握了全球配给权)"
+      ],
+      "imitation": "仿写示范: So critical is computing infrastructure for frontier AI that tech giants are willing to invest hundreds of billions of dollars."
+    },
+    {
+      "id": 2,
+      "time": "02:05",
+      "sec": 125,
+      "speaker": "Faisal Islam (英音)",
+      "pattern": "双重定语从句 + 介词+关系代词 (of which) 嵌套结构",
+      "en": "The AI boom that undoubtedly we've been living through over the past couple of years, that promises to transform every part of our lives and the economy, is built on these frontier models, the large language models of which ChatGPT was the most famous pioneer in 2022.",
+      "zh": "过去几年我们无疑正在经历的、且有望彻底改变我们生活每个角落和整体经济的这场 AI 热潮，正是建立在这些前沿模型——即以 2022 年最著名的先驱 ChatGPT 为代表的大语言模型——之上的。",
+      "chunks": [
+        "主句骨架: The AI boom ... is built on these frontier models (AI热潮建立在前沿模型之上)",
+        "并列定语从句 1&2: [that we've been living through...] + [that promises to transform...] (双重修饰 The AI boom)",
+        "同位语+所属定语从句: the large language models [of which ChatGPT was the most famous pioneer] (of which = among which Large Language Models)"
+      ],
+      "imitation": "仿写示范: The semiconductor transition that the industry has been navigating is driven by frontier GPUs, the architecture of which NVIDIA pioneered."
+    },
+    {
+      "id": 3,
+      "time": "09:02",
+      "sec": 542,
+      "speaker": "Faisal Islam (引述董事会声明)",
+      "pattern": "While 让步状语从句 + have no reason to believe that... 外交/公关标准句式",
+      "en": "A statement from the NVIDIA board said that while the board has no reason to believe that either national security or NVIDIA secrets were compromised, the board's inquiry will examine all available information.",
+      "zh": "英伟达董事会的一份声明称，尽管董事会没有理由认为国家安全或英伟达商业机密遭到了泄露，但董事会的调查仍将审视所有可用信息。",
+      "chunks": [
+        "宾语从句引导词: said that [while..., the board's inquiry will...]",
+        "让步从句: while the board has no reason to believe that [either A or B were compromised] (危机公关高频防御表达)",
+        "主句承诺: the board's inquiry will examine all available information (展现独立调查透明度)"
+      ],
+      "imitation": "仿写示范: While regulators have no reason to believe that user data was compromised, an independent audit will examine all security logs."
+    },
+    {
+      "id": 4,
+      "time": "12:04",
+      "sec": 724,
+      "speaker": "Faisal Islam (英音)",
+      "pattern": "get sb. doing sth. + 否定目的逻辑 (not incentivize sb. to do)",
+      "en": "You want to actually get them using what they call the US tech stack; you don't want to incentivize them to go out there and create all these technologies themselves, because they may be two years behind, but they're going to get there eventually.",
+      "zh": "你实际上希望让他们持续使用所谓的“美国技术栈”；你并不想倒逼激励他们自己去研发所有这些技术，因为他们眼下或许落后两年，但终究会追赶上来。",
+      "chunks": [
+        "核心论点: get them using [what they call the US tech stack] (使他们习惯使用美国技术生态)",
+        "反面对比: don't want to incentivize them to create... themselves (不要倒逼他们自主造轮子)",
+        "原因状语: because they may be two years behind, but they're going to get there eventually (解释为何封锁会失效)"
+      ],
+      "imitation": "仿写示范: Policymakers face a dilemma: strict bans might inadvertently incentivize competitors to build their own domestic supply chains."
+    },
+    {
+      "id": 5,
+      "time": "14:25",
+      "sec": 865,
+      "speaker": "Faisal Islam (英音)",
+      "pattern": "Where 名词性从句作主语 + 同位语从句双重解释",
+      "en": "Where this does really matter is his power in pursuing an argument that you could come up with a win-win solution, that it wasn't a zero-sum game.",
+      "zh": "这件事真正关键的地方，在于他推动“美中可以达成双赢方案、而非零和博弈”这一论点的影响力。",
+      "chunks": [
+        "主语从句: Where this does really matter (这件事真正产生核心影响的切入点，助动词 does 加强语气)",
+        "表语核心: is his power in pursuing an argument",
+        "双重同位语从句: [that you could come up with a win-win solution], [that it wasn't a zero-sum game] (具体解释 argument 的内容)"
+      ],
+      "imitation": "仿写示范: Where export controls truly matter is their effectiveness in preserving a technological lead during a critical window."
+    },
+    {
+      "id": 6,
+      "time": "22:02",
+      "sec": 1322,
+      "speaker": "Randy Schriver (美音)",
+      "pattern": "If 条件句 + 动名词作主语 (Six months to a year of keeping... is...)",
+      "en": "If we can't thwart China's advancement because they have a lot of money and talent, you have to control the things that you can control... In this sector, six months to a year of keeping them behind us is meaningful.",
+      "zh": "如果因为中国资金充裕、人才济济，我们无法彻底阻止其进步，那你就必须控制你能控制的部分……在这个行业里，让他们落后我们 6 个月到 1 年也是极具意义的。",
+      "chunks": [
+        "条件前提: If we can't thwart China's advancement [because...]",
+        "策略选择: you have to control the things [that you can control]",
+        "时间窗口量化主语: [six months to a year of keeping them behind us] is meaningful (在指数级迭代的 AI 行业，半年代差即决定胜负)"
+      ],
+      "imitation": "仿写示范: Even if regulations cannot eliminate risks entirely, twelve months of slowing down unauthorized proliferation is strategically meaningful."
+    },
+    {
+      "id": 7,
+      "time": "23:25",
+      "sec": 1405,
+      "speaker": "Randy Schriver (美音)",
+      "pattern": "The + 比较级..., the + 比较级... 递进句 + if, in fact 条件插入",
+      "en": "The better the AI, the better the chips, the better you're going to get on the battlefield. So there are very direct national security concerns if, in fact, this relationship was a pathway for China to accelerate their acquisition of this kind of advanced chip.",
+      "zh": "AI 越强、芯片越好，你在战场上的表现就会越强。因此，如果这段关系果真成为了中国加速获取此类先进芯片的通道，那就存在非常直接的国家安全隐患。",
+      "chunks": [
+        "三联比较级递进: The better the AI, the better the chips, the better you're going to get on the battlefield",
+        "结论主干: there are very direct national security concerns",
+        "条件从句(含插入语): if, in fact, this relationship was a pathway [for China to accelerate their acquisition...]"
+      ],
+      "imitation": "仿写示范: The more advanced the computing cluster, the faster the model training, and the greater the strategic advantage in real-time decision-making."
+    },
+    {
+      "id": 8,
+      "time": "25:10",
+      "sec": 1510,
+      "speaker": "Randy Schriver (美音)",
+      "pattern": "even if 让步从句 + to the extent that (就……程度而言) 政策分析句",
+      "en": "The president seems to be in a mode where he doesn't want distractions to that trade agenda, even if those distractions from time to time pop up as pretty significant consequential issues... So to the extent that this issue bleeds into that, I doubt it'll affect much.",
+      "zh": "总统目前似乎处于一种不想让任何干扰因素打乱贸易议程的状态，即便这些时不时冒出来的干扰因素本身是相当重大的问题……因此，就算这件事在一定程度上渗透影响到会谈，我也怀疑它不会产生多大冲击。",
+      "chunks": [
+        "定语从句修饰状态: in a mode [where he doesn't want distractions to that agenda]",
+        "让步从句: even if those distractions ... pop up as pretty significant consequential issues",
+        "程度限定从句: to the extent that this issue bleeds into that (就该事件蔓延渗透到贸易谈判的程度而言)"
+      ],
+      "imitation": "仿写示范: To the extent that geopolitical tensions bleed into supply chain decisions, multinational corporations must diversify their manufacturing bases."
+    }
+  ],
+  "cloze": [
+    {
+      "id": "c1",
+      "time": "02:45",
+      "prefix": "NVIDIA has been sitting at the ",
+      "answer": "epicenter",
+      "hint": "e________ (震中/最核心位置)",
+      "suffix": " of that AI training process, providing the world's most powerful chips."
+    },
+    {
+      "id": "c2",
+      "time": "03:20",
+      "prefix": "So in demand are his GPUs that he has this astonishing role in essentially ",
+      "answer": "rationing",
+      "hint": "r________ (配给分发，填动名词)",
+      "suffix": " them around the world."
+    },
+    {
+      "id": "c3",
+      "time": "09:05",
+      "prefix": "The board said it has no reason to believe that either national security or company secrets were ",
+      "answer": "compromised",
+      "hint": "c__________ (泄露/受损害，过去分词)",
+      "suffix": ", though it launched an independent inquiry."
+    },
+    {
+      "id": "c4",
+      "time": "13:18",
+      "prefix": "Jensen Huang argued that both America and China can win because AI competition is not a ",
+      "answer": "zero-sum",
+      "hint": "z_______ (零和的，带连字符)",
+      "suffix": " game."
+    },
+    {
+      "id": "c5",
+      "time": "14:52",
+      "prefix": "Without his voice, a more ",
+      "answer": "hawkish",
+      "hint": "h______ (鹰派的/强硬的)",
+      "suffix": " sentiment about the spread of technology to China surely prevails."
+    },
+    {
+      "id": "c6",
+      "time": "22:15",
+      "prefix": "Part of their workaround is developing their own ",
+      "answer": "indigenous",
+      "hint": "i_________ (本土自主的)",
+      "suffix": " capabilities, but keeping them 6 to 12 months behind is still meaningful."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "1. According to BBC economics editor Faisal Islam, what was NVIDIA's original business focus when Jensen Huang founded it in 1993?",
+      "options": [
+        "A. Designing sovereign cloud infrastructure for governments",
+        "B. Making GPUs for 3D gaming ('making 3D dragons')",
+        "C. Building large language models to compete with Google",
+        "D. Manufacturing telecommunications hardware for the US military"
+      ],
+      "correct": 1,
+      "explanation": "原文定位 02:55：Faisal 指出 'They didn't necessarily set out to do this. They set out to make GPUs... it's about 3D gaming. So it's about making 3D dragons, not transforming the whole world.'"
+    },
+    {
+      "q": "2. What is the 'US tech stack' argument proffered by the semiconductor industry regarding export controls?",
+      "options": [
+        "A. The US should ban all software and hardware exports immediately",
+        "B. Allowing China to use US chips keeps them dependent on the US ecosystem rather than incentivizing them to build their own alternatives",
+        "C. US tech companies should relocate all chip fabrication plants to Singapore",
+        "D. Only open-source models should be exported to foreign markets"
+      ],
+      "correct": 1,
+      "explanation": "原文定位 12:02：Faisal 解释产业界的逻辑：'You want to actually get them using what they call the US tech stack... You don't want to incentivize them to go out there and create all these technologies themselves.'"
+    },
+    {
+      "q": "3. Why does Faisal Islam believe Jensen Huang's personal scandal will have major geopolitical ramifications?",
+      "options": [
+        "A. Because NVIDIA's GPUs will immediately stop working in data centers",
+        "B. Because Huang was the most powerful proponent of the 'win-win / non-zero-sum' argument with Trump, and his departure strengthens hawkish sentiment",
+        "C. Because the UK cancelled its sovereign AI partnership with the US",
+        "D. Because NVIDIA's board confirmed that source code was stolen"
+      ],
+      "correct": 1,
+      "explanation": "原文定位 14:25-15:05：Faisal 强调公司因需求强劲不会垮掉，但黄仁勋是说服特朗普相信“双赢而非零和博弈”的最有力倡导者（proponent），如今对华技术管制的鹰派情绪（hawkish sentiment）将占上风。"
+    },
+    {
+      "q": "4. According to USCC Chair Randy Schriver, why do bipartisan commissioners support strict export controls on top-tier chips even if China has the money and talent to eventually catch up?",
+      "options": [
+        "A. Because export controls can permanently stop China from ever training AI models",
+        "B. Because in the fast-moving AI sector, thwarting a rival's progress and keeping them 6 to 12 months behind is strategically meaningful",
+        "C. Because Congress wants to reduce the price of gaming graphics cards in the US",
+        "D. Because the commission has direct authority to pass laws without Congress"
+      ],
+      "correct": 1,
+      "explanation": "原文定位 22:05：Schriver 坦言管制无法永久阻止中国发展自主能力（indigenous capabilities），只能起延缓作用（thwarting it for a period of time），但在 AI 领域保持 6 到 12 个月的领先代差就极具战略意义。"
+    },
+    {
+      "q": "5. What does Mike Kuiken mean when he describes this NVIDIA story as being 'outside of the noise level'?",
+      "options": [
+        "A. The audio recording of the podcast had too much background interference",
+        "B. Unlike routine daily political chatter in Washington, this scandal is striking enough to capture public attention and shift policy consensus",
+        "C. The story is unimportant compared to domestic economic news",
+        "D. The investigation is being conducted in complete secrecy"
+      ],
+      "correct": 1,
+      "explanation": "原文定位 28:00：政治报道中常有许多日常背景噪音（operating in that noise space），而此次事件属于罕见的破圈事件（outside of the noise level），能促使公众与立法者推动实质性政策变化（move the needle）。"
+    }
+  ]
+}
